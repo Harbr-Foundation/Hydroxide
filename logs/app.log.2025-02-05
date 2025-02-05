@@ -68,3 +68,8 @@
 2025-02-05T18:01:24.553444Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
 2025-02-05T18:01:24.553720Z TRACE axum::serve: signal received, not accepting new connections
 2025-02-05T18:01:24.553892Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-05T18:13:20.548718Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-05T18:13:21.668040Z  INFO hydroxide: Shutting down server...
+2025-02-05T18:13:21.668260Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-05T18:13:21.668431Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-05T18:13:21.668619Z TRACE axum::serve: waiting for 0 task(s) to finish
