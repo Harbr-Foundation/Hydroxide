@@ -5,7 +5,7 @@ on:
 
 jobs:
   formatting:
-    name: rust-fmt
+    name: Rustfmt 🖊️
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,7 +16,7 @@ jobs:
         uses: actions-rust-lang/rustfmt@v1
 
   clippy:
-    name: rust-clippy
+    name: Rust Clippy 📎
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
