@@ -1,2 +1,2 @@
 ﻿[target.aarch64-unknown-linux-gnu]
-linker = "gcc-13-aarch64-linux-gnu"
+linker = "gcc-aarch64-linux-gnu"
