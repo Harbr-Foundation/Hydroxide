@@ -1,0 +1,28 @@
+[package]
+name = "hydroxide"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.8.1"
+tokio = { version = "1.43.0", features = ["rt-multi-thread", "signal"] }
+tracing = "0.1.41"
+tracing-appender = "0.2.3"
+tracing-subscriber = "0.3.19"
+
+[dev-dependencies]
+rusty-hook = "^0.11.2"
+
+
+[lints.rust]
+unsafe_code = "warn"
+unused_results = "warn"
+missing_debug_implementations = "warn"
+semicolon_in_expressions_from_macros = "warn"
+single_use_lifetimes = "warn"
+trivial_casts = "warn"
+trivial_numeric_casts = "warn"
+variant_size_differences = "warn"
+
+[profile.dev]
+debug-assertions = true

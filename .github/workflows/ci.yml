@@ -1,0 +1,72 @@
+﻿name: "Test Suite"
+on:
+  push:
+  pull_request:
+
+jobs:
+  formatting:
+    name: rust-fmt
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          components: rustfmt
+      - name: Rustfmt Check
+        uses: actions-rust-lang/rustfmt@v1
+
+  clippy:
+    name: rust-clippy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          components: clippy
+      - name: Clippy Check
+        run: cargo clippy -- -D warnings
+
+  test:
+    name: rust-test
+    runs-on: ${{ matrix.runner }}
+    needs: [formatting, clippy]
+    strategy:
+      matrix:
+        include:
+          - runner: ubuntu-latest
+            rust-target: x86_64-unknown-linux-gnu
+            executable-name: hydroxide-linux-x86_64
+            path: hydroxide
+          - runner: ubuntu-latest
+            rust-target: aarch64-unknown-linux-gnu
+            executable-name: hydroxide-linux-aarch64
+            path: hydroxide
+          - runner: macos-latest
+            rust-target: x86_64-apple-darwin
+            executable-name: hydroxide-macos-x86_64
+            path: hydroxide
+          - runner: macos-latest
+            rust-target: aarch64-apple-darwin
+            executable-name: hydroxide-macos-aarch64
+            path: hydroxide
+          - runner: windows-latest
+            rust-target: x86_64-pc-windows-msvc
+            executable-name: hydroxide-windows-x86_64
+            path: hydroxide.exe
+          - runner: windows-latest
+            rust-target: aarch64-pc-windows-msvc
+            executable-name: hydroxide-windows-aarch64
+            path: hydroxide.exe
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          toolchain: ${{ matrix.rust-target }}
+      - run: cargo build --release --target ${{ matrix.rust-target }}
+      - run: cargo test --all-features
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.executable-name }}
+          path: target/${{ matrix.rust-target }}/release/${{ matrix.path }}
