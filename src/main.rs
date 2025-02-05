@@ -1,10 +1,9 @@
-#![cfg_attr(debug_assertions, allow(dead_code, unused_imports))]
-
+#![allow(unused_imports)]
 use axum::{http::StatusCode, response::IntoResponse, Router};
 use std::io;
 use tokio::net::TcpListener;
 use tracing::{error, info};
-use tracing_appender::rolling::{daily, RollingFileAppender, Rotation};
+use tracing_appender::rolling::{RollingFileAppender, Rotation};
 use tracing_subscriber::{fmt, prelude::*, Registry};
 
 #[tokio::main]
