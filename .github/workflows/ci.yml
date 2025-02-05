@@ -63,8 +63,15 @@ jobs:
       - uses: actions-rust-lang/setup-rust-toolchain@v1
         with:
           target: ${{ matrix.rust-target }}
+      - name: Install Dependencies
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-multilib gcc-aarch64-linux-gnu
       - run: cargo build --release --target ${{ matrix.rust-target }}
-      - run: cargo test --all-features
+      - name: Run Tests
+        if: matrix.rust-target != 'aarch64-pc-windows-msvc'
+        run: cargo test --all-features
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
