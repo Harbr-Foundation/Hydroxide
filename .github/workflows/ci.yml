@@ -27,7 +27,7 @@ jobs:
         run: cargo clippy -- -D warnings
 
   test:
-    name: rust-test
+    name: ${{ matrix.name }}
     runs-on: ${{ matrix.runner }}
     needs: [formatting, clippy]
     strategy:
@@ -37,26 +37,32 @@ jobs:
             rust-target: x86_64-unknown-linux-gnu
             executable-name: hydroxide-linux-x86_64
             path: hydroxide
+            name: Build Hydroxide Linux x86_64 🐧
           - runner: ubuntu-latest
             rust-target: aarch64-unknown-linux-gnu
             executable-name: hydroxide-linux-aarch64
             path: hydroxide
+            name: Build Hydroxide Linux ARM 🐧
           - runner: macos-latest
             rust-target: x86_64-apple-darwin
             executable-name: hydroxide-macos-x86_64
             path: hydroxide
+            name: Build Hydroxide MacOS x86_64 🍎
           - runner: macos-latest
             rust-target: aarch64-apple-darwin
             executable-name: hydroxide-macos-aarch64
             path: hydroxide
+            name: Build Hydroxide MacOS ARM 🍎
           - runner: windows-latest
             rust-target: x86_64-pc-windows-msvc
             executable-name: hydroxide-windows-x86_64
             path: hydroxide.exe
+            name: Build Hydroxide Windows x86_64 🪟
           - runner: windows-latest
             rust-target: aarch64-pc-windows-msvc
             executable-name: hydroxide-windows-aarch64
             path: hydroxide.exe
+            name: Build Hydroxide Windows ARM 🪟
 
     steps:
       - uses: actions/checkout@v4
