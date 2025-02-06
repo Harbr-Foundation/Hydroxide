@@ -1,2 +1,5 @@
 ﻿[target.aarch64-unknown-linux-gnu]
 linker = "aarch64-linux-gnu-gcc"
+
+[build]
+rustflags = ["--remap-path-prefix", "${CARGO_HOME:-$HOME/.cargo/registry/src}=registry/src"]
