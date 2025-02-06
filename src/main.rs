@@ -15,6 +15,7 @@ use tracing_subscriber::layer::Filter;
 use tracing_subscriber::{fmt, prelude::*, Registry};
 
 #[derive(Clone)]
+#[allow(dead_code)]
 struct GitServer {
     instance_url: String,
     router: Router<GitServer>,
@@ -45,7 +46,7 @@ async fn main() {
         .route("/u/{user}/{repo_name}/{*path}", get(handle_repo))
         .fallback(fallback);
     let state = GitServer {
-        addr: addr.clone(),
+        addr,
         instance_url: format!("http://{}", addr),
         router: router.clone(),
     };
@@ -153,15 +154,15 @@ async fn handle_repo(
 }
 async fn fallback(
     uri: axum::http::Uri,
-    State(state): State<GitServer>,
+    State(_state): State<GitServer>,
     method: axum::http::Method,
 ) -> impl IntoResponse {
-    let mut msg = format!("404 - Not Found: {} {}", method, uri);
+    let msg = format!("404 - Not Found: {} {}", method, uri);
     error!("{}", msg);
     if let Some(uri) = uri.query() {
         let uri = uri.to_string();
         if uri.contains("service=git") {
-            let instance_url = state.instance_url;
+            // let instance_url = state.instance_url;
         }
     }
     error!("{}", msg);
