@@ -1,0 +1,146 @@
+2025-02-08T16:42:48.721313Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-08T16:56:43.624546Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-08T17:04:08.358710Z  INFO hydroxide: Shutting down server...
+2025-02-08T17:04:08.358794Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T17:04:08.358895Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T17:04:08.359011Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T17:52:58.326649Z TRACE hydroxide::config: Built Config: localhost:80
+2025-02-08T17:53:18.944354Z TRACE hydroxide::config: Built Config: localhost:80
+2025-02-08T17:55:03.927186Z TRACE hydroxide::config: Built Config: Url: localhost:80
+https = false,
+self signed = false,n loglevel = Info
+2025-02-08T17:55:17.183739Z TRACE hydroxide::config: Built Config: Url: localhost:80
+https = false,
+self signed = false,
+ loglevel = Info
+2025-02-08T17:55:37.663439Z TRACE hydroxide::config: Built Config: Url: localhost:80
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T17:55:48.251494Z TRACE hydroxide::config: Built Config: 
+Url: localhost:80
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T17:56:05.654731Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T17:57:53.563126Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:05:31.874829Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:05:31.875078Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:05:31.876851Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T18:08:07.765861Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T18:08:07.766032Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T18:08:07.766516Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T18:08:07.766867Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T18:08:38.180345Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T18:08:38.180631Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:08:38.180768Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:08:38.182701Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T18:08:53.413180Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T18:08:53.413607Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T18:08:53.413993Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T18:08:53.414269Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T18:08:57.993437Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T18:08:57.993800Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:08:57.996279Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T18:09:32.468749Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T18:09:32.468912Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T18:09:32.469327Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T18:09:32.469645Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T18:09:43.848273Z TRACE hydroxide::config: Setting port: 5
+2025-02-08T18:09:43.848488Z TRACE hydroxide::config: Built Config: 
+Url = localhost:5,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:09:43.849992Z  INFO hydroxide::server: Server listening on 0.0.0.0:5
+2025-02-08T18:09:50.776680Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T18:09:50.776819Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T18:09:50.777040Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T18:09:50.777232Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T18:09:52.606991Z TRACE hydroxide::config: Setting port: 1
+2025-02-08T18:09:52.607209Z TRACE hydroxide::config: Built Config: 
+Url = localhost:1,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:09:52.608675Z  INFO hydroxide::server: Server listening on 0.0.0.0:1
+2025-02-08T18:10:07.990222Z TRACE axum::serve: connection 127.0.0.1:62398 accepted
+2025-02-08T18:10:07.992339Z ERROR hydroxide::server: 404 - Not Found: GET /Caznix/Harbr
+2025-02-08T18:10:08.902646Z TRACE axum::serve: connection 127.0.0.1:62399 accepted
+2025-02-08T18:10:08.903288Z ERROR hydroxide::server: 404 - Not Found: GET /Caznix/Harbr
+2025-02-08T18:10:38.224778Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T18:10:38.224929Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T18:10:38.225104Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T18:10:38.225261Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T18:12:10.068023Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T18:12:10.068280Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:12:10.069878Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T18:12:24.030209Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T18:12:24.030658Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T18:12:24.031011Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T18:12:24.031453Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T18:12:28.552808Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T18:12:28.553528Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:12:28.555471Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T18:12:30.534893Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T18:12:30.535316Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T18:12:30.535505Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T18:12:30.535815Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T18:13:59.675018Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T18:13:59.675249Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:13:59.676792Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T18:14:14.913425Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T18:14:14.913548Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T18:14:14.913706Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T18:14:14.913888Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T18:14:21.723839Z TRACE hydroxide::config: Setting port: 9
+2025-02-08T18:14:21.724064Z TRACE hydroxide::config: Built Config: 
+Url = localhost:9,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T18:14:21.725453Z  INFO hydroxide::server: Server listening on 0.0.0.0:9
+2025-02-08T18:15:12.794643Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T18:15:12.794799Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T18:15:12.795117Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T18:15:12.795507Z TRACE axum::serve: waiting for 0 task(s) to finish

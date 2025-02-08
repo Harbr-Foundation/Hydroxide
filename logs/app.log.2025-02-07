@@ -1,0 +1,78 @@
+2025-02-07T01:47:40.795413Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T01:47:42.138545Z TRACE axum::serve: connection 127.0.0.1:60624 accepted
+2025-02-07T01:47:42.372627Z TRACE axum::serve: connection 127.0.0.1:60626 accepted
+2025-02-07T01:47:42.373417Z ERROR hydroxide: 404 - Not Found: PROPFIND /u/Caznix/Harbr/
+2025-02-07T01:51:05.309400Z  INFO hydroxide: Shutting down server...
+2025-02-07T01:51:05.309471Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-07T01:51:05.309610Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-07T01:51:05.309723Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-07T01:51:10.089992Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T01:51:14.260012Z TRACE axum::serve: connection 127.0.0.1:60656 accepted
+2025-02-07T01:51:14.492758Z TRACE axum::serve: connection 127.0.0.1:60658 accepted
+2025-02-07T01:51:14.509280Z ERROR hydroxide: 404 - Not Found: PROPFIND /u/Caznix/Harbr/
+2025-02-07T01:51:48.674041Z  INFO hydroxide: Shutting down server...
+2025-02-07T01:51:48.674090Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-07T01:51:48.674136Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-07T01:51:48.674227Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-07T01:51:54.082777Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T01:51:57.070513Z TRACE axum::serve: connection 127.0.0.1:60671 accepted
+2025-02-07T01:52:03.704216Z TRACE axum::serve: connection 127.0.0.1:60673 accepted
+2025-02-07T01:52:04.956608Z  INFO hydroxide: Shutting down server...
+2025-02-07T01:52:04.956664Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-07T01:52:04.956811Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-07T01:52:04.956921Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-07T01:52:26.949504Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T01:52:31.747619Z TRACE axum::serve: connection 127.0.0.1:60679 accepted
+2025-02-07T01:52:31.763072Z  INFO hydroxide: PROPFIND request
+2025-02-07T01:53:12.528597Z  INFO hydroxide: Shutting down server...
+2025-02-07T01:53:12.528627Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-07T01:53:12.528679Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-07T01:53:12.528772Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-07T01:53:17.662273Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T01:53:26.477590Z TRACE axum::serve: connection 127.0.0.1:60689 accepted
+2025-02-07T01:53:26.730679Z TRACE axum::serve: connection 127.0.0.1:60691 accepted
+2025-02-07T01:53:26.746553Z ERROR hydroxide: 404 - Not Found: PROPFIND /u/Caznix/Harbr/
+2025-02-07T01:53:32.164795Z TRACE axum::serve: connection 127.0.0.1:60693 accepted
+2025-02-07T01:53:32.401831Z TRACE axum::serve: connection 127.0.0.1:60695 accepted
+2025-02-07T01:53:32.417100Z ERROR hydroxide: 404 - Not Found: PROPFIND /u/Caznix/Harbr/
+2025-02-07T01:53:56.170054Z  INFO hydroxide: Shutting down server...
+2025-02-07T01:53:56.170091Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-07T01:53:56.170204Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-07T01:53:56.170288Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-07T01:54:00.281360Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T01:54:02.693389Z TRACE axum::serve: connection 127.0.0.1:60700 accepted
+2025-02-07T01:54:02.944646Z TRACE axum::serve: connection 127.0.0.1:60702 accepted
+2025-02-07T01:54:02.960640Z ERROR hydroxide: 404 - Not Found: PROPFIND /u/Caznix/Harbr/
+2025-02-07T01:55:16.460530Z  INFO hydroxide: Shutting down server...
+2025-02-07T01:55:16.460575Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-07T01:55:16.460618Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-07T01:55:16.460711Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-07T01:55:22.320707Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T01:55:27.650622Z TRACE axum::serve: connection 127.0.0.1:60707 accepted
+2025-02-07T01:55:27.899475Z TRACE axum::serve: connection 127.0.0.1:60709 accepted
+2025-02-07T01:55:27.914697Z ERROR hydroxide: 404 - Not Found: PROPFIND /u/Caznix/Harbr/
+2025-02-07T01:55:39.929921Z  INFO hydroxide: Shutting down server...
+2025-02-07T01:55:39.929969Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-07T01:55:39.930137Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-07T01:55:39.930211Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-07T01:55:44.260544Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T01:55:47.195540Z TRACE axum::serve: connection 127.0.0.1:60713 accepted
+2025-02-07T01:55:47.447074Z TRACE axum::serve: connection 127.0.0.1:60715 accepted
+2025-02-07T01:55:47.462844Z  INFO hydroxide: PROPFIND request
+2025-02-07T01:58:09.104923Z  INFO hydroxide: Shutting down server...
+2025-02-07T01:58:09.104962Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-07T01:58:09.105090Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-07T01:58:09.105217Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-07T01:58:12.926675Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T01:58:17.629211Z TRACE axum::serve: connection 127.0.0.1:60732 accepted
+2025-02-07T01:58:17.851435Z TRACE axum::serve: connection 127.0.0.1:60734 accepted
+2025-02-07T01:58:17.867060Z  INFO hydroxide: PROPFIND request
+2025-02-07T02:01:29.246777Z  INFO hydroxide: Shutting down server...
+2025-02-07T02:01:29.246813Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-07T02:01:29.246990Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-07T02:01:29.247117Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-07T04:07:57.042588Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T23:24:06.882670Z  INFO hydroxide: Server listening on 0.0.0.0:80
+2025-02-07T23:24:32.168262Z TRACE axum::serve: connection 127.0.0.1:50859 accepted
+2025-02-07T23:24:32.418811Z TRACE axum::serve: connection 127.0.0.1:50862 accepted
+2025-02-07T23:24:32.419692Z  INFO hydroxide: PROPFIND request
