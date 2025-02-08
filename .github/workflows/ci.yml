@@ -83,7 +83,7 @@ jobs:
         if: runner.os == 'macOS'
         run: |
           brew update
-          brew install cmake openssl
+          brew install cmake openssl pkgconf
 
       - name: Install Dependencies (Windows)
         if: runner.os == 'Windows'
