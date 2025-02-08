@@ -69,18 +69,35 @@ jobs:
       - uses: actions-rust-lang/setup-rust-toolchain@v1
         with:
           target: ${{ matrix.rust-target }}
-      - name: Install Dependencies
+
+      - name: Install Dependencies (Linux)
         if: runner.os == 'Linux'
         run: |
           sudo apt-get update
           sudo apt-get install -y software-properties-common
           sudo add-apt-repository ppa:ubuntu-toolchain-r/test
           sudo apt-get update
-          sudo apt-get install -y gcc gcc-aarch64-linux-gnu
-      - run: cargo build --release --target ${{ matrix.rust-target }}
+          sudo apt-get install -y gcc gcc-aarch64-linux-gnu cmake libssl-dev
+
+      - name: Install Dependencies (macOS)
+        if: runner.os == 'macOS'
+        run: |
+          brew update
+          brew install cmake openssl
+
+      - name: Install Dependencies (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System' -y
+          choco install openssl -y
+
+      - name: Build Project
+        run: cargo build --release --target ${{ matrix.rust-target }}
+
       - name: Run Tests
         if: matrix.rust-target != 'aarch64-pc-windows-msvc'
         run: cargo test --all-features
+
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v4
         with:
