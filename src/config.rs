@@ -6,7 +6,6 @@ use tracing::{trace, Level};
 
 #[derive(Clone, Debug, Serialize, Deserialize, PartialEq, Eq, FromStr, Display)]
 pub struct Port(pub u16);
-
 impl Deref for Port {
     type Target = u16;
     fn deref(&self) -> &Self::Target {
@@ -55,6 +54,7 @@ pub struct Config {
     #[display("{port}")]
     pub port: Port,
     pub use_https: bool,
+    pub http_redirect: bool,
     pub self_signed: bool,
     pub log_level: LogLevel,
 }
@@ -63,6 +63,7 @@ pub struct Config {
 pub struct Builder {
     host: Option<String>,
     port: Option<Port>,
+    http_redirect: bool,
     use_https: bool,
     self_signed: bool,
     log_level: Option<LogLevel>,
@@ -72,6 +73,7 @@ impl Builder {
         Self {
             host: None,
             port: None,
+            http_redirect: false,
             use_https: false,
             self_signed: false,
             log_level: None,
@@ -102,6 +104,11 @@ impl Builder {
         self.log_level = Some(log_level);
         self
     }
+    pub fn with_redirect(mut self, redirect: bool) -> Self {
+        trace!("Setting do http redirect: {}", redirect);
+        self.http_redirect = redirect;
+        self
+    }
     pub fn build(&self) -> Config {
         // we clone since the builder should only be called once.
         // the builder memory will be dropped after it goes out of scope, so i deem this
@@ -110,6 +117,7 @@ impl Builder {
             host: self.host.clone().unwrap_or("localhost".to_string()),
             port: self.port.clone().unwrap_or(Port(80)),
             use_https: self.use_https,
+            http_redirect: self.http_redirect,
             self_signed: self.self_signed,
             log_level: self.log_level.clone().unwrap_or_default(),
         };

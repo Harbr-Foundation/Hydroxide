@@ -7,7 +7,15 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e57eedc-e1aa-449b-8f6c-b1d02869480e" name="Changes" comment="" />
+    <list default="true" id="0e57eedc-e1aa-449b-8f6c-b1d02869480e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/logs/app.log.2025-02-09" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/app.log.2025-02-11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.log.2025-02-08" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log.2025-02-08" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/mod.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +55,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Chance/Documents/Development/Hydroxide&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
     &quot;org.rust.cargo.project.model.impl.CargoExternalSystemProjectAware.subscribe.first.balloon&quot;: &quot;&quot;,
     &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
@@ -109,7 +118,9 @@
       <workItem from="1738970635830" duration="1222000" />
       <workItem from="1739030440123" duration="2981000" />
       <workItem from="1739033482001" duration="4645000" />
-      <workItem from="1739039255737" duration="2029000" />
+      <workItem from="1739039255737" duration="12588000" />
+      <workItem from="1739083069866" duration="2314000" />
+      <workItem from="1739247190428" duration="954000" />
     </task>
     <servers />
   </component>

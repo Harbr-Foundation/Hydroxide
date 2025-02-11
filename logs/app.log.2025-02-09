@@ -1,0 +1,35 @@
+2025-02-09T06:39:30.870298Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-09T06:39:30.870554Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-09T06:39:55.143100Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-09T06:39:55.143464Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-09T06:39:55.146231Z  INFO hydroxide::server: Starting HTTP redirect server on 0.0.0.0:80
+2025-02-09T06:39:55.146449Z  INFO hydroxide::server: Starting HTTPS server on 0.0.0.0:80
+2025-02-09T06:41:53.029713Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-09T06:41:53.030111Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-09T06:41:53.032097Z  INFO hydroxide::server: Starting plain HTTP server on 0.0.0.0:80
+2025-02-09T06:42:06.248664Z  INFO hydroxide::server: Shutting down server...
+2025-02-09T06:42:06.248787Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-09T06:42:06.248940Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-09T06:42:06.249106Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-09T06:42:12.775857Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-09T06:42:12.776060Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-09T06:42:12.777805Z  INFO hydroxide::server: Starting plain HTTP server on 0.0.0.0:80
+2025-02-09T06:42:28.146620Z TRACE axum::serve: connection 127.0.0.1:65280 accepted
+2025-02-09T06:42:28.394520Z TRACE axum::serve: connection 127.0.0.1:65282 accepted
+2025-02-09T06:42:28.410958Z  INFO hydroxide::server: PROPFIND request

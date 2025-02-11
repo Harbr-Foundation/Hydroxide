@@ -1,101 +1,165 @@
 #![allow(unused_imports)]
-use axum::extract::State;
-use axum::http::{HeaderMap, Method, Uri};
-use axum::routing::{any, get, post};
-use axum::{http::StatusCode, response::IntoResponse, Router, ServiceExt};
+
+use axum::body::Body;
+use axum::http::header;
+use axum::routing::IntoMakeService;
+use axum::{
+    extract::{Path, State},
+    http::{HeaderMap, Method, Request, StatusCode, Uri},
+    response::IntoResponse,
+    routing::{any, get, post},
+    Router,
+};
 #[cfg(feature = "https")]
 use axum_server::tls_rustls::RustlsConfig;
-use std::io;
+use rcgen::generate_simple_self_signed;
+use std::future::IntoFuture;
 use std::net::SocketAddr;
 use tokio::net::TcpListener;
-use tracing::{error, info, Level};
-use tracing_appender::rolling::{RollingFileAppender, Rotation};
-use tracing_subscriber::fmt::format;
-use tracing_subscriber::layer::Filter;
-use tracing_subscriber::{fmt, prelude::*, Registry};
-
+use tokio::signal;
+use tracing::{error, info};
 #[derive(Clone)]
-#[allow(dead_code)]
 struct GitServer {
     instance_url: String,
-    router: Router<GitServer>,
+    #[allow(dead_code)]
     addr: SocketAddr,
 }
 
-pub async fn launch(config: crate::config::Config) {
-    let port = *config.port;
-    let listener = TcpListener::bind(format!("0.0.0.0:{port}")).await.unwrap();
-    let addr = listener.local_addr().unwrap();
+/// Main entry point: chooses between TLS mode and plain HTTP.
+pub async fn launch(mut config: crate::config::Config) {
+    // For TLS mode, config.port is the HTTPS port (e.g. 443)
+    let https_addr = SocketAddr::from(([0, 0, 0, 0], 443));
+    // Use port 80 for HTTP redirection.
+    #[allow(unused_variables)]
+    let http_addr = SocketAddr::from(([0, 0, 0, 0], 80));
 
-    let router = Router::new()
+    // Build the main application router.
+    let main_router = build_main_router();
+
+    let state = GitServer {
+        instance_url: if config.use_https {
+            format!("https://{}", https_addr)
+        } else {
+            format!("http://{}", https_addr)
+        },
+        addr: https_addr,
+    };
+    config.use_https = true;
+    if config.use_https {
+        // When TLS is enabled, run both the HTTPS server and an HTTP server that redirects to HTTPS.
+        #[cfg(feature = "https")]
+        {
+            let https_router = main_router.clone().with_state(state.clone());
+            let redirect_state = state.clone();
+            let redirect_router = Router::new().fallback(move |req: Request<Body>| {
+                let state = redirect_state.clone();
+                async move { redirect_fallback_inner(req, state).await }
+            });
+            let redirect_router = redirect_router.into_make_service();
+
+            let https_server = run_https(https_addr, https_router.into_make_service());
+            let http_redirect_server = run_http_redirect(http_addr, redirect_router);
+            tokio::join!(https_server, http_redirect_server);
+        }
+    } else {
+        // Run only a plain HTTP server.
+        let router = main_router.with_state(state).into_make_service();
+        run_http(https_addr, router).await;
+    }
+}
+
+/// Build the main application router.
+fn build_main_router() -> Router<GitServer> {
+    Router::new()
         .route("/init/{user}/{repo_name}", post(init))
         .route("/u/{user}/{repo_name}/{*path}", get(handle_repo))
         .route("/u/{user}/{repo_name}/{*path}", post(handle_repo))
         .route("/u/{user}/{repo_name}/", any(handle_propfind))
-        .route("/u/{user}/{repo_name}/{*path}", any(handle_propfind))
-        .fallback(fallback);
-    let state = GitServer {
-        addr,
-        instance_url: format!("http://{}", addr),
-        router: router.clone(),
-    };
-    let router = router.with_state(state);
-
-    info!("Server listening on {}", addr);
-
-    if config.use_https {
-        #[cfg(feature = "https")]
-        {
-            serve_tls(addr, router).await;
-        }
-    } else {
-        axum::serve(listener, router)
-            .with_graceful_shutdown(shutdown_signal())
-            .await
-            .unwrap();
-    }
+        .fallback(fallback)
 }
+
+/// Run the HTTPS server using TLS configuration.
 #[cfg(feature = "https")]
-async fn serve_tls(addr: std::net::SocketAddr, app: Router<GitServer>) {
-    let config = RustlsConfig::from_pem_file(
-        "examples/self-signed-certs/cert.pem",
-        "examples/self-signed-certs/key.pem",
-    )
-    .await
-    .unwrap();
-    // axum_server::bind_rustls(addr, config)
-    //     .serve(app.into_make_service())
-    //     .with_graceful_shutdown(shutdown_signal())
-    //     .await
-    //     .unwrap();
+async fn run_https(addr: SocketAddr, router: IntoMakeService<Router>) {
+    let tls_config = make_tls_config().await;
+    info!("Starting HTTPS server on {}", addr);
+    let mut new_addr = addr;
+    if addr.port() == 80 {
+        new_addr = SocketAddr::from(([0, 0, 0, 0], 443));
+    }
+    axum_server::bind_rustls(addr, tls_config)
+        .serve(router)
+        .await
+        .unwrap();
+}
+/// Create a simple self-signed TLS configuration.
+#[cfg(feature = "https")]
+async fn make_tls_config() -> RustlsConfig {
+    let subject_alt_names = vec!["localhost".to_string()];
+    let cert =
+        generate_simple_self_signed(subject_alt_names).expect("Failed to generate certificate");
+
+    let cert_der = cert.cert.der();
+    let key_der = cert.key_pair.serialized_der().to_vec();
+
+    RustlsConfig::from_der(vec![cert_der.to_vec()], key_der)
+        .await
+        .expect("Failed to create TLS config")
 }
 
+/// Run the HTTP redirect server.
+#[cfg(feature = "https")]
+async fn run_http_redirect(addr: SocketAddr, router: IntoMakeService<Router>) {
+    let listener = TcpListener::bind(addr)
+        .await
+        .expect("Failed to bind HTTP redirect listener");
+
+    info!("Starting HTTP redirect server on {}", addr);
+    axum::serve(listener, router)
+        .with_graceful_shutdown(shutdown_signal())
+        .into_future()
+        .await
+        .expect("HTTP redirect server failed");
+}
+
+/// Run a plain HTTP server.
+async fn run_http(addr: SocketAddr, router: IntoMakeService<Router>) {
+    let listener = TcpListener::bind(addr)
+        .await
+        .expect("Failed to bind HTTP listener");
+    info!("Starting plain HTTP server on {}", addr);
+    axum::serve(listener, router)
+        .with_graceful_shutdown(shutdown_signal())
+        .await
+        .expect("Failed to start server");
+}
+
+/// Signal handler for graceful shutdown.
 async fn shutdown_signal() {
-    tokio::signal::ctrl_c()
+    signal::ctrl_c()
         .await
         .expect("Failed to install CTRL+C signal handler");
     info!("Shutting down server...");
 }
+
+/// A minimal WebDAV response for PROPFIND requests.
 async fn handle_propfind() -> impl IntoResponse {
     info!("PROPFIND request");
-    // Return a minimal valid WebDAV XML response
     let body = r#"<?xml version="1.0" encoding="utf-8"?>
 <multistatus xmlns="DAV:">
 </multistatus>"#;
     let mut headers = HeaderMap::new();
     let _ = headers.insert("Content-Type", "application/xml".parse().unwrap());
-    // A 207 Multi-Status is common for WebDAV responses.
     (StatusCode::MULTI_STATUS, headers, body)
 }
-async fn init(
-    axum::extract::Path((user, repo_name)): axum::extract::Path<(String, String)>,
-) -> impl IntoResponse {
+
+/// Initialize a bare Git repository.
+async fn init(Path((user, repo_name)): Path<(String, String)>) -> impl IntoResponse {
     let repo_path = format!("repos/{}/{}", user, repo_name);
     let repo = git2::Repository::init_bare(&repo_path)
         .map_err(|_| StatusCode::INTERNAL_SERVER_ERROR.into_response());
     match repo {
         Ok(repo) => {
-            // Create the info/refs file
             let refs_path = format!("{}/info/refs", repo_path);
             if let Err(e) = std::fs::File::create(&refs_path) {
                 error!("Failed to create info/refs file: {:#?}", e);
@@ -122,8 +186,10 @@ async fn init(
         }
     }
 }
+
+/// Handle file or directory requests for a repository.
 async fn handle_repo(
-    axum::extract::Path((user, repo_name, path)): axum::extract::Path<(String, String, String)>,
+    Path((user, repo_name, path)): Path<(String, String, String)>,
 ) -> impl IntoResponse {
     let repo_path = format!("repos/{}/{}", user, repo_name);
     let file_path = format!("{}/{}", repo_path, path);
@@ -151,18 +217,41 @@ async fn handle_repo(
             .into_response(),
     }
 }
-async fn fallback(
-    uri: axum::http::Uri,
-    State(_state): State<GitServer>,
-    method: axum::http::Method,
-) -> impl IntoResponse {
+
+/// Fallback handler for unmatched routes on the main router.
+async fn fallback(uri: Uri, State(_state): State<GitServer>, method: Method) -> impl IntoResponse {
     let msg = format!("404 - Not Found: {} {}", method, uri);
-    if let Some(uri) = uri.query() {
-        let uri = uri.to_string();
-        if uri.contains("service=git") {
-            // let instance_url = state.instance_url;
-        }
-    }
     error!("{}", msg);
     (StatusCode::NOT_FOUND, msg)
+}
+
+/// Internal function for redirect fallback.
+/// This function builds the HTTPS URI and returns a redirect response.
+#[allow(dead_code)]
+async fn redirect_fallback_inner(req: Request<Body>, state: GitServer) -> impl IntoResponse {
+    let host = req
+        .headers()
+        .get(header::HOST)
+        .and_then(|h| h.to_str().ok())
+        .unwrap_or("");
+    let uri = req.uri();
+    let https_uri = {
+        let mut parts = uri.clone().into_parts();
+        parts.scheme = Some("https".parse().unwrap());
+        if host.is_empty() {
+            // Fall back to the instance URL from state.
+            let instance_host = state
+                .instance_url
+                .strip_prefix("https://")
+                .unwrap_or(&state.instance_url);
+            parts.authority = Some(instance_host.parse().unwrap());
+        } else {
+            parts.authority = Some(host.parse().unwrap());
+        }
+        Uri::from_parts(parts).unwrap()
+    };
+    (
+        StatusCode::TEMPORARY_REDIRECT,
+        [(header::LOCATION, https_uri.to_string())],
+    )
 }

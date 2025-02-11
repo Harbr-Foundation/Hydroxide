@@ -144,3 +144,1108 @@ loglevel = Info
 2025-02-08T18:15:12.794799Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
 2025-02-08T18:15:12.795117Z TRACE axum::serve: signal received, not accepting new connections
 2025-02-08T18:15:12.795507Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T20:41:44.000291Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T20:41:44.000624Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T20:41:44.002355Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T20:42:09.701400Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T20:42:09.701524Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T20:42:09.701911Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T20:42:09.702128Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T20:42:34.591989Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T20:42:34.592297Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T20:42:34.594637Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T20:53:47.772741Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T20:53:47.772952Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T20:53:47.774452Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T20:55:54.921992Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T20:55:54.922230Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T20:55:54.923768Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T21:00:56.468357Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T21:00:56.468630Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:00:56.470148Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T21:01:39.568182Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T21:01:39.568597Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:01:39.570278Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T21:02:40.415551Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T21:02:40.415777Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:02:40.417281Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T21:02:44.704585Z TRACE hydroxide::config: Setting port: 5
+2025-02-08T21:02:44.704791Z TRACE hydroxide::config: Built Config: 
+Url = localhost:5,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:02:44.706373Z  INFO hydroxide::server: Server listening on 0.0.0.0:5
+2025-02-08T21:04:21.450985Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T21:04:21.451329Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:04:21.451869Z  INFO hydroxide::server: Server listening on 0.0.0.0:80
+2025-02-08T21:05:05.302801Z TRACE hydroxide::config: Setting port: 443
+2025-02-08T21:05:05.303184Z TRACE hydroxide::config: Built Config: 
+Url = localhost:443,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:05:05.303796Z  INFO hydroxide::server: Server listening on 0.0.0.0:443
+2025-02-08T21:05:10.551862Z DEBUG server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::codec::framed_write: send frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }
+2025-02-08T21:05:10.552055Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::frame::settings: encoding SETTINGS; len=24
+2025-02-08T21:05:10.552275Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::frame::settings: encoding setting; val=MaxConcurrentStreams(200)
+2025-02-08T21:05:10.552450Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::frame::settings: encoding setting; val=InitialWindowSize(1048576)
+2025-02-08T21:05:10.552588Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::frame::settings: encoding setting; val=MaxFrameSize(16384)
+2025-02-08T21:05:10.552746Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::frame::settings: encoding setting; val=MaxHeaderListSize(16384)
+2025-02-08T21:05:10.552929Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::codec::framed_write: encoded settings rem=33
+2025-02-08T21:05:10.553133Z TRACE server_handshake: h2::server: state=Flushing(_)
+2025-02-08T21:05:10.553300Z TRACE server_handshake:flush:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:05:10.553498Z TRACE server_handshake:flush:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:05:10.553638Z TRACE server_handshake: h2::server: flush.poll=Ready
+2025-02-08T21:05:10.553841Z TRACE server_handshake: h2::proto::streams::flow_control: inc_window; sz=65535; old=0; new=65535
+2025-02-08T21:05:10.553988Z TRACE server_handshake: h2::proto::streams::flow_control: inc_window; sz=65535; old=0; new=65535
+2025-02-08T21:05:10.554119Z TRACE server_handshake: h2::proto::streams::prioritize: Prioritize::new; flow=FlowControl { window_size: Window(65535), available: Window(65535) }
+2025-02-08T21:05:10.554321Z TRACE server_handshake: h2::server: connection established!
+2025-02-08T21:05:10.554456Z TRACE server_handshake: h2::proto::streams::recv: set_target_connection_window; target=1048576; available=65535, reserved=0
+2025-02-08T21:05:10.554676Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:05:10.554866Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.555041Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=33
+2025-02-08T21:05:10.555386Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::codec::framed_read: decoding frame from 33B
+2025-02-08T21:05:10.555759Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::codec::framed_read: frame.kind=Settings
+2025-02-08T21:05:10.556101Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Settings { flags: (0x0), header_table_size: 65536, enable_push: 0, initial_window_size: 131072, max_frame_size: 16384 }
+2025-02-08T21:05:10.557457Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv SETTINGS frame=Settings { flags: (0x0), header_table_size: 65536, enable_push: 0, initial_window_size: 131072, max_frame_size: 16384 }
+2025-02-08T21:05:10.557652Z DEBUG server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Settings { flags: (0x1: ACK) }}: h2::codec::framed_write: send frame=Settings { flags: (0x1: ACK) }
+2025-02-08T21:05:10.557805Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Settings { flags: (0x1: ACK) }}: h2::frame::settings: encoding SETTINGS; len=0
+2025-02-08T21:05:10.557955Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Settings { flags: (0x1: ACK) }}: h2::codec::framed_write: encoded settings rem=9
+2025-02-08T21:05:10.558141Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready: h2::proto::settings: ACK sent; applying settings
+2025-02-08T21:05:10.558338Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.558510Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=13
+2025-02-08T21:05:10.562431Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: decoding frame from 13B
+2025-02-08T21:05:10.562693Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: frame.kind=WindowUpdate
+2025-02-08T21:05:10.562921Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=WindowUpdate { stream_id: StreamId(0), size_increment: 12517377 }
+2025-02-08T21:05:10.563113Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv WINDOW_UPDATE frame=WindowUpdate { stream_id: StreamId(0), size_increment: 12517377 }
+2025-02-08T21:05:10.563305Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=12517377; old=65535; new=12582912
+2025-02-08T21:05:10.563558Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.563729Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=346
+2025-02-08T21:05:10.566860Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}: h2::codec::framed_read: decoding frame from 346B
+2025-02-08T21:05:10.567141Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}: h2::codec::framed_read: frame.kind=Headers
+2025-02-08T21:05:10.567452Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}: h2::frame::headers: loading headers; flags=(0x25: END_HEADERS | END_STREAM | PRIORITY)
+2025-02-08T21:05:10.567745Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: decode
+2025-02-08T21:05:10.567992Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=332 kind=Indexed
+2025-02-08T21:05:10.568215Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=331 kind=LiteralWithoutIndexing
+2025-02-08T21:05:10.570934Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=328 kind=LiteralWithIndexing
+2025-02-08T21:05:10.571221Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=320 kind=Indexed
+2025-02-08T21:05:10.571474Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=319 kind=LiteralWithIndexing
+2025-02-08T21:05:10.571879Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=257 kind=LiteralWithIndexing
+2025-02-08T21:05:10.572312Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=165 kind=LiteralWithIndexing
+2025-02-08T21:05:10.575319Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=152 kind=LiteralWithIndexing
+2025-02-08T21:05:10.575799Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=132 kind=LiteralWithIndexing
+2025-02-08T21:05:10.576308Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=123 kind=LiteralWithIndexing
+2025-02-08T21:05:10.576600Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=101 kind=LiteralWithIndexing
+2025-02-08T21:05:10.576897Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=82 kind=LiteralWithIndexing
+2025-02-08T21:05:10.583315Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=63 kind=LiteralWithIndexing
+2025-02-08T21:05:10.583741Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=47 kind=LiteralWithIndexing
+2025-02-08T21:05:10.584043Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=32 kind=LiteralWithIndexing
+2025-02-08T21:05:10.584265Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=25 kind=LiteralWithIndexing
+2025-02-08T21:05:10.584502Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=11 kind=LiteralWithIndexing
+2025-02-08T21:05:10.584751Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Headers { stream_id: StreamId(3), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+2025-02-08T21:05:10.588098Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv HEADERS frame=Headers { stream_id: StreamId(3), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+2025-02-08T21:05:10.588293Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=65535; old=0; new=65535
+2025-02-08T21:05:10.588439Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=131072; old=0; new=131072
+2025-02-08T21:05:10.588618Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::streams: recv_headers; stream=StreamId(3); state=State { inner: Idle }
+2025-02-08T21:05:10.588781Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::recv: opening stream; init_window=65535
+2025-02-08T21:05:10.588982Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:05:10.589223Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store:  -> first entry
+2025-02-08T21:05:10.589428Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:05:10.594068Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.594306Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=13
+2025-02-08T21:05:10.594493Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: decoding frame from 13B
+2025-02-08T21:05:10.594707Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: frame.kind=WindowUpdate
+2025-02-08T21:05:10.594876Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=WindowUpdate { stream_id: StreamId(3), size_increment: 12451840 }
+2025-02-08T21:05:10.595024Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv WINDOW_UPDATE frame=WindowUpdate { stream_id: StreamId(3), size_increment: 12451840 }
+2025-02-08T21:05:10.599400Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(3) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}: h2::proto::streams::flow_control: inc_window; sz=12451840; old=131072; new=12582912
+2025-02-08T21:05:10.599666Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(3) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: requested=0 additional=0 buffered=0 window=12582912 conn=12582912
+2025-02-08T21:05:10.599855Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.600069Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=9
+2025-02-08T21:05:10.600254Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=9}: h2::codec::framed_read: decoding frame from 9B
+2025-02-08T21:05:10.600417Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=9}: h2::codec::framed_read: frame.kind=Settings
+2025-02-08T21:05:10.603875Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Settings { flags: (0x1: ACK) }
+2025-02-08T21:05:10.604175Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv SETTINGS frame=Settings { flags: (0x1: ACK) }
+2025-02-08T21:05:10.604412Z DEBUG server_handshake:Connection{peer=Server}:poll: h2::proto::settings: received settings ACK; applying Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }
+2025-02-08T21:05:10.604599Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::recv: update_initial_window_size; new=1048576; old=65535
+2025-02-08T21:05:10.604763Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::recv: incrementing all windows; inc=983041
+2025-02-08T21:05:10.604903Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=983041; old=65535; new=1048576
+2025-02-08T21:05:10.605077Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.605351Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=WindowUpdate { stream_id: StreamId(0), size_increment: 983041 }}: h2::codec::framed_write: send frame=WindowUpdate { stream_id: StreamId(0), size_increment: 983041 }
+2025-02-08T21:05:10.608649Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=WindowUpdate { stream_id: StreamId(0), size_increment: 983041 }}: h2::frame::window_update: encoding WINDOW_UPDATE; id=StreamId(0)
+2025-02-08T21:05:10.608877Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=WindowUpdate { stream_id: StreamId(0), size_increment: 983041 }}: h2::codec::framed_write: encoded window_update rem=22
+2025-02-08T21:05:10.609063Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=983041; old=65535; new=1048576
+2025-02-08T21:05:10.609348Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:05:10.609513Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:05:10.609787Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:05:10.610098Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:05:10.610251Z TRACE h2::proto::streams::streams: next_incoming; id=StreamId(3), state=State { inner: HalfClosedRemote(AwaitingHeaders) }
+2025-02-08T21:05:10.610368Z TRACE h2::server: received incoming
+2025-02-08T21:05:10.615551Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:05:10.615800Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.616055Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:05:10.616222Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:05:10.616434Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:05:10.616817Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(3), state: State { inner: HalfClosedRemote(AwaitingHeaders) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: false, send_flow: FlowControl { window_size: Window(12582912), available: Window(0) }, requested_send_capacity: 0, buffered_send_data: 0, send_task: None, pending_send: Deque { indices: None }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: false, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:05:10.617003Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:05:10.620019Z ERROR hydroxide::server: 404 - Not Found: GET https://localhost/
+2025-02-08T21:05:10.620317Z TRACE h2::proto::streams::send: send_headers; frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }; init_window=131072
+2025-02-08T21:05:10.620481Z TRACE Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(3)
+2025-02-08T21:05:10.620624Z TRACE Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:05:10.620748Z TRACE Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:05:10.620882Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: HalfClosedRemote(Streaming) }; is_closed=false; pending_send_empty=false; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:05:10.621073Z TRACE reserve_capacity{stream.id=StreamId(3) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: requested=1 additional=1 buffered=0 window=12582912 conn=12582912
+2025-02-08T21:05:10.621214Z TRACE reserve_capacity{stream.id=StreamId(3) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: assigning capacity=1
+2025-02-08T21:05:10.621347Z TRACE reserve_capacity{stream.id=StreamId(3) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::stream:   assigned capacity to stream; available=1; buffered=0; id=StreamId(3); max_buffer_size=409600 prev=0
+2025-02-08T21:05:10.623848Z TRACE reserve_capacity{stream.id=StreamId(3) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::stream:   notifying task
+2025-02-08T21:05:10.624009Z TRACE reserve_capacity{stream.id=StreamId(3) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: available=1 requested=1 buffered=0 has_unavailable=true
+2025-02-08T21:05:10.624175Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::prioritize: buffered=39
+2025-02-08T21:05:10.624324Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: requested=39 additional=38 buffered=39 window=12582912 conn=12582911
+2025-02-08T21:05:10.624462Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: assigning capacity=38
+2025-02-08T21:05:10.624590Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::stream:   assigned capacity to stream; available=39; buffered=39; id=StreamId(3); max_buffer_size=409600 prev=0
+2025-02-08T21:05:10.624718Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: available=39 requested=39 buffered=39 has_unavailable=true
+2025-02-08T21:05:10.624862Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:05:10.628541Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:05:10.628763Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::state: send_close: HalfClosedRemote => Closed
+2025-02-08T21:05:10.628917Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::prioritize: available=39 buffered=39
+2025-02-08T21:05:10.629075Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(3)
+2025-02-08T21:05:10.629205Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:05:10.629333Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:05:10.629454Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:05:10.633039Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(3), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(39) }, requested_send_capacity: 39, buffered_send_data: 39, send_task: Some(Waker { data: 0x24e2a924180, vtable: 0x7ff71d42b6a0 }), pending_send: Deque { indices: Some(Indices { head: 0, tail: 1 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:05:10.633166Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:05:10.633422Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(3), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 1, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(39) }, requested_send_capacity: 39, buffered_send_data: 39, send_task: Some(Waker { data: 0x24e2a924180, vtable: 0x7ff71d42b6a0 }), pending_send: Deque { indices: Some(Indices { head: 0, tail: 1 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:05:10.633537Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:05:10.633728Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:05:10.633890Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.634057Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:05:10.636208Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:05:10.636465Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:05:10.636697Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }
+2025-02-08T21:05:10.636904Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:05:10.637094Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:05:10.637360Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:05:10.639361Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }
+2025-02-08T21:05:10.639678Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }}: h2::codec::framed_write: send frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }
+2025-02-08T21:05:10.639949Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:05:10.640173Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:05:10.640342Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: data frame sz=39 eos=true window=39 available=39 requested=39 buffered=39
+2025-02-08T21:05:10.640488Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: sending data frame len=39
+2025-02-08T21:05:10.646755Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::flow_control: send_data; sz=39; window=12582912; available=39
+2025-02-08T21:05:10.647046Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::stream:   sent stream data; available=0; buffered=0; id=StreamId(3); max_buffer_size=409600 prev=0
+2025-02-08T21:05:10.647276Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}:updating connection flow: h2::proto::streams::flow_control: send_data; sz=39; window=12582912; available=12582912
+2025-02-08T21:05:10.647514Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) }
+2025-02-08T21:05:10.647722Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: Closed(EndStream) }; is_closed=true; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:05:10.651040Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: dec_num_streams; stream=StreamId(3)
+2025-02-08T21:05:10.651330Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) }
+2025-02-08T21:05:10.651648Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) }}: h2::codec::framed_write: send frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) }
+2025-02-08T21:05:10.652046Z TRACE server_handshake:Connection{peer=Server}:poll:try_reclaim_frame: h2::proto::streams::prioritize: reclaimed frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) } sz=0
+2025-02-08T21:05:10.652273Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:05:10.652527Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:05:10.652775Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:05:10.717941Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:05:10.718295Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.718661Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=145
+2025-02-08T21:05:10.718930Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}: h2::codec::framed_read: decoding frame from 145B
+2025-02-08T21:05:10.719153Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}: h2::codec::framed_read: frame.kind=Headers
+2025-02-08T21:05:10.719340Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}: h2::frame::headers: loading headers; flags=(0x25: END_HEADERS | END_STREAM | PRIORITY)
+2025-02-08T21:05:10.719561Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: decode
+2025-02-08T21:05:10.719766Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=131 kind=Indexed
+2025-02-08T21:05:10.719965Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=130 kind=LiteralWithoutIndexing
+2025-02-08T21:05:10.721068Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=119 kind=Indexed
+2025-02-08T21:05:10.721293Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=118 kind=Indexed
+2025-02-08T21:05:10.721479Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=117 kind=Indexed
+2025-02-08T21:05:10.721673Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=116 kind=LiteralWithIndexing
+2025-02-08T21:05:10.722030Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=52 kind=Indexed
+2025-02-08T21:05:10.722206Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=51 kind=Indexed
+2025-02-08T21:05:10.725900Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=50 kind=Indexed
+2025-02-08T21:05:10.726129Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=49 kind=LiteralWithIndexing
+2025-02-08T21:05:10.726385Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=34 kind=LiteralWithIndexing
+2025-02-08T21:05:10.726890Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=27 kind=LiteralWithIndexing
+2025-02-08T21:05:10.727379Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=19 kind=LiteralWithIndexing
+2025-02-08T21:05:10.732594Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=8 kind=Indexed
+2025-02-08T21:05:10.732918Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=7 kind=LiteralWithIndexing
+2025-02-08T21:05:10.733322Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=145}:hpack::decode: h2::hpack::decoder: rem=1 kind=Indexed
+2025-02-08T21:05:10.733704Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Headers { stream_id: StreamId(5), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 21, is_exclusive: false } }
+2025-02-08T21:05:10.734055Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv HEADERS frame=Headers { stream_id: StreamId(5), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 21, is_exclusive: false } }
+2025-02-08T21:05:10.734225Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=1048576; old=0; new=1048576
+2025-02-08T21:05:10.740696Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=131072; old=0; new=131072
+2025-02-08T21:05:10.740986Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::streams: recv_headers; stream=StreamId(5); state=State { inner: Idle }
+2025-02-08T21:05:10.741182Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::recv: opening stream; init_window=1048576
+2025-02-08T21:05:10.741404Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:05:10.741592Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store:  -> first entry
+2025-02-08T21:05:10.741733Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:05:10.741991Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.742187Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=13
+2025-02-08T21:05:10.745967Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: decoding frame from 13B
+2025-02-08T21:05:10.746444Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: frame.kind=WindowUpdate
+2025-02-08T21:05:10.746717Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=WindowUpdate { stream_id: StreamId(5), size_increment: 12451840 }
+2025-02-08T21:05:10.746936Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv WINDOW_UPDATE frame=WindowUpdate { stream_id: StreamId(5), size_increment: 12451840 }
+2025-02-08T21:05:10.747175Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(5) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}: h2::proto::streams::flow_control: inc_window; sz=12451840; old=131072; new=12582912
+2025-02-08T21:05:10.747464Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(5) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: requested=0 additional=0 buffered=0 window=12582912 conn=12582873
+2025-02-08T21:05:10.751191Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.751457Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:05:10.751723Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:05:10.752037Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:05:10.752254Z TRACE h2::proto::streams::streams: next_incoming; id=StreamId(5), state=State { inner: HalfClosedRemote(AwaitingHeaders) }
+2025-02-08T21:05:10.752416Z TRACE h2::server: received incoming
+2025-02-08T21:05:10.752770Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:05:10.752984Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.753174Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:05:10.756517Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:05:10.756768Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:05:10.757088Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(5), state: State { inner: HalfClosedRemote(AwaitingHeaders) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: false, send_flow: FlowControl { window_size: Window(12582912), available: Window(0) }, requested_send_capacity: 0, buffered_send_data: 0, send_task: None, pending_send: Deque { indices: None }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: false, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:05:10.757250Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:05:10.757384Z ERROR hydroxide::server: 404 - Not Found: GET https://localhost/favicon.ico
+2025-02-08T21:05:10.757527Z TRACE h2::proto::streams::send: send_headers; frame=Headers { stream_id: StreamId(5), flags: (0x4: END_HEADERS) }; init_window=131072
+2025-02-08T21:05:10.757661Z TRACE Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(5)
+2025-02-08T21:05:10.757769Z TRACE Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:05:10.757872Z TRACE Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:05:10.762403Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: HalfClosedRemote(Streaming) }; is_closed=false; pending_send_empty=false; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:05:10.762670Z TRACE reserve_capacity{stream.id=StreamId(5) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: requested=1 additional=1 buffered=0 window=12582912 conn=12582873
+2025-02-08T21:05:10.762811Z TRACE reserve_capacity{stream.id=StreamId(5) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: assigning capacity=1
+2025-02-08T21:05:10.763041Z TRACE reserve_capacity{stream.id=StreamId(5) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::stream:   assigned capacity to stream; available=1; buffered=0; id=StreamId(5); max_buffer_size=409600 prev=0
+2025-02-08T21:05:10.763258Z TRACE reserve_capacity{stream.id=StreamId(5) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::stream:   notifying task
+2025-02-08T21:05:10.763468Z TRACE reserve_capacity{stream.id=StreamId(5) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: available=1 requested=1 buffered=0 has_unavailable=true
+2025-02-08T21:05:10.763709Z TRACE send_data{sz=50 requested=1}: h2::proto::streams::prioritize: buffered=50
+2025-02-08T21:05:10.768407Z TRACE send_data{sz=50 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: requested=50 additional=49 buffered=50 window=12582912 conn=12582872
+2025-02-08T21:05:10.768618Z TRACE send_data{sz=50 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: assigning capacity=49
+2025-02-08T21:05:10.768900Z TRACE send_data{sz=50 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::stream:   assigned capacity to stream; available=50; buffered=50; id=StreamId(5); max_buffer_size=409600 prev=0
+2025-02-08T21:05:10.769136Z TRACE send_data{sz=50 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: available=50 requested=50 buffered=50 has_unavailable=true
+2025-02-08T21:05:10.769283Z TRACE send_data{sz=50 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:05:10.769426Z TRACE send_data{sz=50 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:05:10.769556Z TRACE send_data{sz=50 requested=1}: h2::proto::streams::state: send_close: HalfClosedRemote => Closed
+2025-02-08T21:05:10.769736Z TRACE send_data{sz=50 requested=1}: h2::proto::streams::prioritize: available=50 buffered=50
+2025-02-08T21:05:10.773616Z TRACE send_data{sz=50 requested=1}:Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(5)
+2025-02-08T21:05:10.773808Z TRACE send_data{sz=50 requested=1}:Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:05:10.773932Z TRACE send_data{sz=50 requested=1}:Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:05:10.774059Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=50; num_recv=1; num_send=0
+2025-02-08T21:05:10.774220Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(5), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(50) }, requested_send_capacity: 50, buffered_send_data: 50, send_task: Some(Waker { data: 0x24e2a915800, vtable: 0x7ff71d42b6a0 }), pending_send: Deque { indices: Some(Indices { head: 1, tail: 0 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:05:10.774327Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=50; num_recv=1; num_send=0
+2025-02-08T21:05:10.779500Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(5), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 1, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(50) }, requested_send_capacity: 50, buffered_send_data: 50, send_task: Some(Waker { data: 0x24e2a915800, vtable: 0x7ff71d42b6a0 }), pending_send: Deque { indices: Some(Indices { head: 1, tail: 0 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:05:10.779898Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=50; num_recv=1; num_send=0
+2025-02-08T21:05:10.780192Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:05:10.780425Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:05:10.780720Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:05:10.780922Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:05:10.781183Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:05:10.782455Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Headers { stream_id: StreamId(5), flags: (0x4: END_HEADERS) }
+2025-02-08T21:05:10.782768Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:05:10.783045Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:05:10.783354Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=50; num_recv=1; num_send=0
+2025-02-08T21:05:10.783643Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Headers { stream_id: StreamId(5), flags: (0x4: END_HEADERS) }
+2025-02-08T21:05:10.783900Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Headers { stream_id: StreamId(5), flags: (0x4: END_HEADERS) }}: h2::codec::framed_write: send frame=Headers { stream_id: StreamId(5), flags: (0x4: END_HEADERS) }
+2025-02-08T21:05:10.786932Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:05:10.787103Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:05:10.787279Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: data frame sz=50 eos=true window=50 available=50 requested=50 buffered=50
+2025-02-08T21:05:10.787452Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: sending data frame len=50
+2025-02-08T21:05:10.787643Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::flow_control: send_data; sz=50; window=12582912; available=50
+2025-02-08T21:05:10.792119Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::stream:   sent stream data; available=0; buffered=0; id=StreamId(5); max_buffer_size=409600 prev=0
+2025-02-08T21:05:10.792503Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}:updating connection flow: h2::proto::streams::flow_control: send_data; sz=50; window=12582873; available=12582873
+2025-02-08T21:05:10.792759Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Data { stream_id: StreamId(5), flags: (0x1: END_STREAM) }
+2025-02-08T21:05:10.793023Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: Closed(EndStream) }; is_closed=true; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:05:10.793252Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: dec_num_streams; stream=StreamId(5)
+2025-02-08T21:05:10.793469Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Data { stream_id: StreamId(5), flags: (0x1: END_STREAM) }
+2025-02-08T21:05:10.799195Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Data { stream_id: StreamId(5), flags: (0x1: END_STREAM) }}: h2::codec::framed_write: send frame=Data { stream_id: StreamId(5), flags: (0x1: END_STREAM) }
+2025-02-08T21:05:10.799471Z TRACE server_handshake:Connection{peer=Server}:poll:try_reclaim_frame: h2::proto::streams::prioritize: reclaimed frame=Data { stream_id: StreamId(5), flags: (0x1: END_STREAM) } sz=0
+2025-02-08T21:05:10.799679Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:05:10.799898Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:05:10.800153Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:06:08.926152Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:06:08.926857Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:06:08.927456Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=17
+2025-02-08T21:06:08.927820Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: decoding frame from 17B
+2025-02-08T21:06:08.928086Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: frame.kind=Ping
+2025-02-08T21:06:08.928627Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:06:08.928892Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv PING frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:06:08.929233Z DEBUG server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: send frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:06:08.929445Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::frame::ping: encoding PING; ack=true len=8
+2025-02-08T21:06:08.929641Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: encoded ping rem=17
+2025-02-08T21:06:08.929820Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:06:08.930021Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:06:08.930156Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:06:08.930316Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:06:08.930545Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:07:07.111758Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:07:07.112662Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:07.113196Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=17
+2025-02-08T21:07:07.113663Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: decoding frame from 17B
+2025-02-08T21:07:07.114015Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: frame.kind=Ping
+2025-02-08T21:07:07.114389Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:07:07.114566Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv PING frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:07:07.114884Z DEBUG server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: send frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:07:07.115070Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::frame::ping: encoding PING; ack=true len=8
+2025-02-08T21:07:07.115357Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: encoded ping rem=17
+2025-02-08T21:07:07.115539Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:07.115737Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:07:07.115889Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:07.116079Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:07:07.116315Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:07:18.534295Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:07:18.534752Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:18.535098Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=33
+2025-02-08T21:07:18.535293Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::codec::framed_read: decoding frame from 33B
+2025-02-08T21:07:18.535459Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::codec::framed_read: frame.kind=Headers
+2025-02-08T21:07:18.535649Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::frame::headers: loading headers; flags=(0x25: END_HEADERS | END_STREAM | PRIORITY)
+2025-02-08T21:07:18.535907Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: decode
+2025-02-08T21:07:18.536106Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=19 kind=Indexed
+2025-02-08T21:07:18.536293Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=18 kind=LiteralWithoutIndexing
+2025-02-08T21:07:18.536492Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=15 kind=Indexed
+2025-02-08T21:07:18.536668Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=14 kind=Indexed
+2025-02-08T21:07:18.540675Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=13 kind=Indexed
+2025-02-08T21:07:18.541387Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=12 kind=Indexed
+2025-02-08T21:07:18.541757Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=11 kind=Indexed
+2025-02-08T21:07:18.542021Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=10 kind=Indexed
+2025-02-08T21:07:18.542312Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=9 kind=Indexed
+2025-02-08T21:07:18.546902Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=8 kind=Indexed
+2025-02-08T21:07:18.547288Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=7 kind=Indexed
+2025-02-08T21:07:18.547561Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=6 kind=Indexed
+2025-02-08T21:07:18.547794Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=5 kind=Indexed
+2025-02-08T21:07:18.548017Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=4 kind=Indexed
+2025-02-08T21:07:18.548237Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=3 kind=Indexed
+2025-02-08T21:07:18.552304Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=2 kind=Indexed
+2025-02-08T21:07:18.552526Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=1 kind=Indexed
+2025-02-08T21:07:18.552781Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Headers { stream_id: StreamId(7), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+2025-02-08T21:07:18.553002Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv HEADERS frame=Headers { stream_id: StreamId(7), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+2025-02-08T21:07:18.553179Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=1048576; old=0; new=1048576
+2025-02-08T21:07:18.553335Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=131072; old=0; new=131072
+2025-02-08T21:07:18.553475Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::streams: recv_headers; stream=StreamId(7); state=State { inner: Idle }
+2025-02-08T21:07:18.557428Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::recv: opening stream; init_window=1048576
+2025-02-08T21:07:18.557817Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:07:18.558317Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store:  -> first entry
+2025-02-08T21:07:18.558516Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::counts: transition_after; stream=StreamId(7); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:07:18.558743Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:18.558946Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=13
+2025-02-08T21:07:18.559171Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: decoding frame from 13B
+2025-02-08T21:07:18.562350Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: frame.kind=WindowUpdate
+2025-02-08T21:07:18.562882Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=WindowUpdate { stream_id: StreamId(7), size_increment: 12451840 }
+2025-02-08T21:07:18.563307Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv WINDOW_UPDATE frame=WindowUpdate { stream_id: StreamId(7), size_increment: 12451840 }
+2025-02-08T21:07:18.563811Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(7) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}: h2::proto::streams::flow_control: inc_window; sz=12451840; old=131072; new=12582912
+2025-02-08T21:07:18.563999Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(7) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::prioritize: requested=0 additional=0 buffered=0 window=12582912 conn=12582823
+2025-02-08T21:07:18.564162Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:18.566026Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:07:18.566208Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:18.566526Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:07:18.566756Z TRACE h2::proto::streams::streams: next_incoming; id=StreamId(7), state=State { inner: HalfClosedRemote(AwaitingHeaders) }
+2025-02-08T21:07:18.566879Z TRACE h2::server: received incoming
+2025-02-08T21:07:18.567094Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:07:18.567329Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:18.567558Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:07:18.567749Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:18.571861Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:07:18.572344Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(7), state: State { inner: HalfClosedRemote(AwaitingHeaders) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: false, send_flow: FlowControl { window_size: Window(12582912), available: Window(0) }, requested_send_capacity: 0, buffered_send_data: 0, send_task: None, pending_send: Deque { indices: None }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: false, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:07:18.572519Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(7); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:07:18.572682Z ERROR hydroxide::server: 404 - Not Found: GET https://localhost/
+2025-02-08T21:07:18.572814Z TRACE h2::proto::streams::send: send_headers; frame=Headers { stream_id: StreamId(7), flags: (0x4: END_HEADERS) }; init_window=131072
+2025-02-08T21:07:18.572943Z TRACE Prioritize::queue_frame{stream.id=StreamId(7)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(7)
+2025-02-08T21:07:18.573070Z TRACE Prioritize::queue_frame{stream.id=StreamId(7)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:07:18.573234Z TRACE Prioritize::queue_frame{stream.id=StreamId(7)}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:07:18.573351Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(7); state=State { inner: HalfClosedRemote(Streaming) }; is_closed=false; pending_send_empty=false; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:07:18.576453Z TRACE reserve_capacity{stream.id=StreamId(7) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::prioritize: requested=1 additional=1 buffered=0 window=12582912 conn=12582823
+2025-02-08T21:07:18.576721Z TRACE reserve_capacity{stream.id=StreamId(7) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::prioritize: assigning capacity=1
+2025-02-08T21:07:18.576891Z TRACE reserve_capacity{stream.id=StreamId(7) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::stream:   assigned capacity to stream; available=1; buffered=0; id=StreamId(7); max_buffer_size=409600 prev=0
+2025-02-08T21:07:18.577024Z TRACE reserve_capacity{stream.id=StreamId(7) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::stream:   notifying task
+2025-02-08T21:07:18.577170Z TRACE reserve_capacity{stream.id=StreamId(7) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::prioritize: available=1 requested=1 buffered=0 has_unavailable=true
+2025-02-08T21:07:18.577357Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::prioritize: buffered=39
+2025-02-08T21:07:18.577575Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::prioritize: requested=39 additional=38 buffered=39 window=12582912 conn=12582822
+2025-02-08T21:07:18.580039Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::prioritize: assigning capacity=38
+2025-02-08T21:07:18.580330Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::stream:   assigned capacity to stream; available=39; buffered=39; id=StreamId(7); max_buffer_size=409600 prev=0
+2025-02-08T21:07:18.580502Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::prioritize: available=39 requested=39 buffered=39 has_unavailable=true
+2025-02-08T21:07:18.580632Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:07:18.580848Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(7)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:07:18.581015Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::state: send_close: HalfClosedRemote => Closed
+2025-02-08T21:07:18.581165Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::prioritize: available=39 buffered=39
+2025-02-08T21:07:18.581349Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(7)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(7)
+2025-02-08T21:07:18.581476Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(7)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:07:18.584214Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(7)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:07:18.584481Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(7); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:07:18.584779Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(7), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(39) }, requested_send_capacity: 39, buffered_send_data: 39, send_task: Some(Waker { data: 0x24e2a926c00, vtable: 0x7ff71d42b6a0 }), pending_send: Deque { indices: Some(Indices { head: 0, tail: 1 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:07:18.584980Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(7); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:07:18.585201Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(7), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 1, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(39) }, requested_send_capacity: 39, buffered_send_data: 39, send_task: Some(Waker { data: 0x24e2a926c00, vtable: 0x7ff71d42b6a0 }), pending_send: Deque { indices: Some(Indices { head: 0, tail: 1 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:07:18.588402Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(7); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:07:18.588601Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:07:18.588789Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:18.588962Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:07:18.589104Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:18.589288Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:07:18.589485Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Headers { stream_id: StreamId(7), flags: (0x4: END_HEADERS) }
+2025-02-08T21:07:18.590069Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:07:18.590243Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:07:18.590419Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(7); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:07:18.590568Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Headers { stream_id: StreamId(7), flags: (0x4: END_HEADERS) }
+2025-02-08T21:07:18.590752Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Headers { stream_id: StreamId(7), flags: (0x4: END_HEADERS) }}: h2::codec::framed_write: send frame=Headers { stream_id: StreamId(7), flags: (0x4: END_HEADERS) }
+2025-02-08T21:07:18.590954Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:18.595184Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:07:18.595446Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: data frame sz=39 eos=true window=39 available=39 requested=39 buffered=39
+2025-02-08T21:07:18.595628Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: sending data frame len=39
+2025-02-08T21:07:18.595830Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::flow_control: send_data; sz=39; window=12582912; available=39
+2025-02-08T21:07:18.596001Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::stream:   sent stream data; available=0; buffered=0; id=StreamId(7); max_buffer_size=409600 prev=0
+2025-02-08T21:07:18.599029Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}:updating connection flow: h2::proto::streams::flow_control: send_data; sz=39; window=12582823; available=12582823
+2025-02-08T21:07:18.599386Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Data { stream_id: StreamId(7), flags: (0x1: END_STREAM) }
+2025-02-08T21:07:18.599647Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(7); state=State { inner: Closed(EndStream) }; is_closed=true; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:07:18.599890Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(7) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: dec_num_streams; stream=StreamId(7)
+2025-02-08T21:07:18.600105Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Data { stream_id: StreamId(7), flags: (0x1: END_STREAM) }
+2025-02-08T21:07:18.600419Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Data { stream_id: StreamId(7), flags: (0x1: END_STREAM) }}: h2::codec::framed_write: send frame=Data { stream_id: StreamId(7), flags: (0x1: END_STREAM) }
+2025-02-08T21:07:18.604969Z TRACE server_handshake:Connection{peer=Server}:poll:try_reclaim_frame: h2::proto::streams::prioritize: reclaimed frame=Data { stream_id: StreamId(7), flags: (0x1: END_STREAM) } sz=0
+2025-02-08T21:07:18.605225Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:18.605501Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:07:18.605936Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:07:22.556512Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:07:22.556857Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:22.557214Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=33
+2025-02-08T21:07:22.557550Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::codec::framed_read: decoding frame from 33B
+2025-02-08T21:07:22.557994Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::codec::framed_read: frame.kind=Headers
+2025-02-08T21:07:22.558342Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::frame::headers: loading headers; flags=(0x25: END_HEADERS | END_STREAM | PRIORITY)
+2025-02-08T21:07:22.558738Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: decode
+2025-02-08T21:07:22.559279Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=19 kind=Indexed
+2025-02-08T21:07:22.559827Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=18 kind=LiteralWithoutIndexing
+2025-02-08T21:07:22.560231Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=15 kind=Indexed
+2025-02-08T21:07:22.560568Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=14 kind=Indexed
+2025-02-08T21:07:22.560891Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=13 kind=Indexed
+2025-02-08T21:07:22.561272Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=12 kind=Indexed
+2025-02-08T21:07:22.564754Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=11 kind=Indexed
+2025-02-08T21:07:22.565460Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=10 kind=Indexed
+2025-02-08T21:07:22.565809Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=9 kind=Indexed
+2025-02-08T21:07:22.566008Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=8 kind=Indexed
+2025-02-08T21:07:22.566247Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=7 kind=Indexed
+2025-02-08T21:07:22.569469Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=6 kind=Indexed
+2025-02-08T21:07:22.569832Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=5 kind=Indexed
+2025-02-08T21:07:22.570112Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=4 kind=Indexed
+2025-02-08T21:07:22.570726Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=3 kind=Indexed
+2025-02-08T21:07:22.570973Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=2 kind=Indexed
+2025-02-08T21:07:22.571192Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=1 kind=Indexed
+2025-02-08T21:07:22.575680Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Headers { stream_id: StreamId(9), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+2025-02-08T21:07:22.575985Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv HEADERS frame=Headers { stream_id: StreamId(9), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+2025-02-08T21:07:22.576202Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=1048576; old=0; new=1048576
+2025-02-08T21:07:22.576375Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=131072; old=0; new=131072
+2025-02-08T21:07:22.576541Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::streams: recv_headers; stream=StreamId(9); state=State { inner: Idle }
+2025-02-08T21:07:22.576702Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::recv: opening stream; init_window=1048576
+2025-02-08T21:07:22.576897Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:07:22.577055Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store:  -> first entry
+2025-02-08T21:07:22.580611Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::counts: transition_after; stream=StreamId(9); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:07:22.580819Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:22.581045Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=13
+2025-02-08T21:07:22.581333Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: decoding frame from 13B
+2025-02-08T21:07:22.581500Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: frame.kind=WindowUpdate
+2025-02-08T21:07:22.581668Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=WindowUpdate { stream_id: StreamId(9), size_increment: 12451840 }
+2025-02-08T21:07:22.581898Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv WINDOW_UPDATE frame=WindowUpdate { stream_id: StreamId(9), size_increment: 12451840 }
+2025-02-08T21:07:22.584074Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(9) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}: h2::proto::streams::flow_control: inc_window; sz=12451840; old=131072; new=12582912
+2025-02-08T21:07:22.584286Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(9) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::prioritize: requested=0 additional=0 buffered=0 window=12582912 conn=12582784
+2025-02-08T21:07:22.584452Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:22.584632Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:07:22.584750Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:22.584909Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:07:22.587686Z TRACE h2::proto::streams::streams: next_incoming; id=StreamId(9), state=State { inner: HalfClosedRemote(AwaitingHeaders) }
+2025-02-08T21:07:22.587835Z TRACE h2::server: received incoming
+2025-02-08T21:07:22.588049Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:07:22.588274Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:22.588500Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:07:22.588681Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:22.588886Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:07:22.589155Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(9), state: State { inner: HalfClosedRemote(AwaitingHeaders) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: false, send_flow: FlowControl { window_size: Window(12582912), available: Window(0) }, requested_send_capacity: 0, buffered_send_data: 0, send_task: None, pending_send: Deque { indices: None }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: false, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:07:22.591199Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(9); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:07:22.591705Z ERROR hydroxide::server: 404 - Not Found: GET https://localhost/
+2025-02-08T21:07:22.591851Z TRACE h2::proto::streams::send: send_headers; frame=Headers { stream_id: StreamId(9), flags: (0x4: END_HEADERS) }; init_window=131072
+2025-02-08T21:07:22.592022Z TRACE Prioritize::queue_frame{stream.id=StreamId(9)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(9)
+2025-02-08T21:07:22.592160Z TRACE Prioritize::queue_frame{stream.id=StreamId(9)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:07:22.592309Z TRACE Prioritize::queue_frame{stream.id=StreamId(9)}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:07:22.592466Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(9); state=State { inner: HalfClosedRemote(Streaming) }; is_closed=false; pending_send_empty=false; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:07:22.592673Z TRACE reserve_capacity{stream.id=StreamId(9) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::prioritize: requested=1 additional=1 buffered=0 window=12582912 conn=12582784
+2025-02-08T21:07:22.592837Z TRACE reserve_capacity{stream.id=StreamId(9) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::prioritize: assigning capacity=1
+2025-02-08T21:07:22.592986Z TRACE reserve_capacity{stream.id=StreamId(9) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::stream:   assigned capacity to stream; available=1; buffered=0; id=StreamId(9); max_buffer_size=409600 prev=0
+2025-02-08T21:07:22.594810Z TRACE reserve_capacity{stream.id=StreamId(9) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::stream:   notifying task
+2025-02-08T21:07:22.594970Z TRACE reserve_capacity{stream.id=StreamId(9) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::prioritize: available=1 requested=1 buffered=0 has_unavailable=true
+2025-02-08T21:07:22.595116Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::prioritize: buffered=39
+2025-02-08T21:07:22.595269Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::prioritize: requested=39 additional=38 buffered=39 window=12582912 conn=12582783
+2025-02-08T21:07:22.595395Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::prioritize: assigning capacity=38
+2025-02-08T21:07:22.595515Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::stream:   assigned capacity to stream; available=39; buffered=39; id=StreamId(9); max_buffer_size=409600 prev=0
+2025-02-08T21:07:22.595646Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::prioritize: available=39 requested=39 buffered=39 has_unavailable=true
+2025-02-08T21:07:22.598234Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:07:22.598454Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(9)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:07:22.598656Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::state: send_close: HalfClosedRemote => Closed
+2025-02-08T21:07:22.598898Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::prioritize: available=39 buffered=39
+2025-02-08T21:07:22.599135Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(9)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(9)
+2025-02-08T21:07:22.599251Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(9)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:07:22.599367Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(9)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:07:22.599471Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(9); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:07:22.602289Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(9), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(39) }, requested_send_capacity: 39, buffered_send_data: 39, send_task: Some(Waker { data: 0x24e2a926c00, vtable: 0x7ff71d42b6a0 }), pending_send: Deque { indices: Some(Indices { head: 1, tail: 0 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:07:22.602573Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(9); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:07:22.603017Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(9), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 1, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(39) }, requested_send_capacity: 39, buffered_send_data: 39, send_task: Some(Waker { data: 0x24e2a926c00, vtable: 0x7ff71d42b6a0 }), pending_send: Deque { indices: Some(Indices { head: 1, tail: 0 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:07:22.603155Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(9); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:07:22.603369Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:07:22.603662Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:07:22.607151Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:07:22.607414Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:22.607681Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:07:22.608191Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Headers { stream_id: StreamId(9), flags: (0x4: END_HEADERS) }
+2025-02-08T21:07:22.608396Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:07:22.608631Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:07:22.609995Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(9); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:07:22.610194Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Headers { stream_id: StreamId(9), flags: (0x4: END_HEADERS) }
+2025-02-08T21:07:22.610386Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Headers { stream_id: StreamId(9), flags: (0x4: END_HEADERS) }}: h2::codec::framed_write: send frame=Headers { stream_id: StreamId(9), flags: (0x4: END_HEADERS) }
+2025-02-08T21:07:22.610587Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:22.610791Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:07:22.610973Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: data frame sz=39 eos=true window=39 available=39 requested=39 buffered=39
+2025-02-08T21:07:22.613802Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: sending data frame len=39
+2025-02-08T21:07:22.614342Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::flow_control: send_data; sz=39; window=12582912; available=39
+2025-02-08T21:07:22.614860Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::stream:   sent stream data; available=0; buffered=0; id=StreamId(9); max_buffer_size=409600 prev=0
+2025-02-08T21:07:22.615089Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}:updating connection flow: h2::proto::streams::flow_control: send_data; sz=39; window=12582784; available=12582784
+2025-02-08T21:07:22.615353Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Data { stream_id: StreamId(9), flags: (0x1: END_STREAM) }
+2025-02-08T21:07:22.617353Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(9); state=State { inner: Closed(EndStream) }; is_closed=true; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:07:22.617628Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(9) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: dec_num_streams; stream=StreamId(9)
+2025-02-08T21:07:22.617929Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Data { stream_id: StreamId(9), flags: (0x1: END_STREAM) }
+2025-02-08T21:07:22.618162Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Data { stream_id: StreamId(9), flags: (0x1: END_STREAM) }}: h2::codec::framed_write: send frame=Data { stream_id: StreamId(9), flags: (0x1: END_STREAM) }
+2025-02-08T21:07:22.618465Z TRACE server_handshake:Connection{peer=Server}:poll:try_reclaim_frame: h2::proto::streams::prioritize: reclaimed frame=Data { stream_id: StreamId(9), flags: (0x1: END_STREAM) } sz=0
+2025-02-08T21:07:22.618695Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:07:22.618924Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:07:22.620974Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:08:21.261896Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:08:21.262618Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:08:21.262983Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=17
+2025-02-08T21:08:21.263532Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: decoding frame from 17B
+2025-02-08T21:08:21.264690Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: frame.kind=Ping
+2025-02-08T21:08:21.264954Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:08:21.265153Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv PING frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:08:21.265379Z DEBUG server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: send frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:08:21.265553Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::frame::ping: encoding PING; ack=true len=8
+2025-02-08T21:08:21.265730Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: encoded ping rem=17
+2025-02-08T21:08:21.265907Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:08:21.266337Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:08:21.266676Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:08:21.266908Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:08:21.267247Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:09:19.575820Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:09:19.576008Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:09:19.576198Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=17
+2025-02-08T21:09:19.576388Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: decoding frame from 17B
+2025-02-08T21:09:19.576569Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: frame.kind=Ping
+2025-02-08T21:09:19.576750Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:09:19.576912Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv PING frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:09:19.577104Z DEBUG server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: send frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:09:19.577325Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::frame::ping: encoding PING; ack=true len=8
+2025-02-08T21:09:19.578017Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: encoded ping rem=17
+2025-02-08T21:09:19.578211Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:09:19.578438Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:09:19.578596Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:09:19.578770Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:09:19.578969Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:28:02.589380Z TRACE hydroxide::config: Setting port: 443
+2025-02-08T21:28:02.589636Z TRACE hydroxide::config: Built Config: 
+Url = localhost:443,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:29:10.724989Z TRACE hydroxide::config: Setting port: 443
+2025-02-08T21:29:10.725274Z TRACE hydroxide::config: Built Config: 
+Url = localhost:443,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:29:10.727132Z  INFO hydroxide::server: Starting plain HTTP server on 0.0.0.0:443
+2025-02-08T21:29:28.031877Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T21:29:28.032247Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T21:29:28.032765Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T21:29:28.033095Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T21:30:25.370838Z TRACE hydroxide::config: Setting port: 443
+2025-02-08T21:30:25.371326Z TRACE hydroxide::config: Built Config: 
+Url = localhost:443,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:30:25.373958Z  INFO hydroxide::server: Starting HTTP redirect server on 0.0.0.0:80
+2025-02-08T21:30:25.374316Z  INFO hydroxide::server: Starting HTTPS server on 0.0.0.0:443
+2025-02-08T21:30:39.037995Z TRACE axum::serve: connection 127.0.0.1:50668 accepted
+2025-02-08T21:30:39.040736Z TRACE axum::serve: connection 127.0.0.1:50669 accepted
+2025-02-08T21:30:39.042228Z TRACE axum::serve: connection 127.0.0.1:50670 accepted
+2025-02-08T21:30:39.043529Z TRACE axum::serve: connection 127.0.0.1:50671 accepted
+2025-02-08T21:30:39.044769Z TRACE axum::serve: connection 127.0.0.1:50672 accepted
+2025-02-08T21:30:39.045980Z TRACE axum::serve: connection 127.0.0.1:50673 accepted
+2025-02-08T21:30:39.047234Z TRACE axum::serve: connection 127.0.0.1:50674 accepted
+2025-02-08T21:30:39.048428Z TRACE axum::serve: connection 127.0.0.1:50675 accepted
+2025-02-08T21:30:39.049669Z TRACE axum::serve: connection 127.0.0.1:50676 accepted
+2025-02-08T21:30:39.050859Z TRACE axum::serve: connection 127.0.0.1:50677 accepted
+2025-02-08T21:32:29.182367Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T21:32:29.182585Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T21:32:29.182914Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T21:32:29.183156Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T21:32:38.650046Z TRACE hydroxide::config: Setting port: 443
+2025-02-08T21:32:38.650341Z TRACE hydroxide::config: Built Config: 
+Url = localhost:443,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:32:38.652289Z  INFO hydroxide::server: Starting plain HTTP server on 0.0.0.0:443
+2025-02-08T21:32:57.138505Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T21:32:57.138663Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T21:32:57.138928Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T21:32:57.139154Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T21:33:03.521178Z TRACE hydroxide::config: Setting port: 443
+2025-02-08T21:33:03.521484Z TRACE hydroxide::config: Built Config: 
+Url = localhost:443,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:33:03.523770Z  INFO hydroxide::server: Starting HTTP redirect server on 0.0.0.0:80
+2025-02-08T21:33:03.524055Z  INFO hydroxide::server: Starting HTTPS server on 0.0.0.0:443
+2025-02-08T21:33:09.482995Z TRACE axum::serve: connection 127.0.0.1:50735 accepted
+2025-02-08T21:33:16.202216Z DEBUG server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::codec::framed_write: send frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }
+2025-02-08T21:33:16.202458Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::frame::settings: encoding SETTINGS; len=24
+2025-02-08T21:33:16.202646Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::frame::settings: encoding setting; val=MaxConcurrentStreams(200)
+2025-02-08T21:33:16.202787Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::frame::settings: encoding setting; val=InitialWindowSize(1048576)
+2025-02-08T21:33:16.203002Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::frame::settings: encoding setting; val=MaxFrameSize(16384)
+2025-02-08T21:33:16.203178Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::frame::settings: encoding setting; val=MaxHeaderListSize(16384)
+2025-02-08T21:33:16.203408Z TRACE server_handshake:FramedWrite::buffer{frame=Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }}: h2::codec::framed_write: encoded settings rem=33
+2025-02-08T21:33:16.203606Z TRACE server_handshake: h2::server: state=Flushing(_)
+2025-02-08T21:33:16.203799Z TRACE server_handshake:flush:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:33:16.204014Z TRACE server_handshake:flush:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:33:16.204162Z TRACE server_handshake: h2::server: flush.poll=Ready
+2025-02-08T21:33:16.204341Z TRACE server_handshake: h2::proto::streams::flow_control: inc_window; sz=65535; old=0; new=65535
+2025-02-08T21:33:16.204457Z TRACE server_handshake: h2::proto::streams::flow_control: inc_window; sz=65535; old=0; new=65535
+2025-02-08T21:33:16.204599Z TRACE server_handshake: h2::proto::streams::prioritize: Prioritize::new; flow=FlowControl { window_size: Window(65535), available: Window(65535) }
+2025-02-08T21:33:16.204763Z TRACE server_handshake: h2::server: connection established!
+2025-02-08T21:33:16.204894Z TRACE server_handshake: h2::proto::streams::recv: set_target_connection_window; target=1048576; available=65535, reserved=0
+2025-02-08T21:33:16.205057Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:33:16.205262Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:16.205422Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=33
+2025-02-08T21:33:16.206475Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::codec::framed_read: decoding frame from 33B
+2025-02-08T21:33:16.206642Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::codec::framed_read: frame.kind=Settings
+2025-02-08T21:33:16.206810Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Settings { flags: (0x0), header_table_size: 65536, enable_push: 0, initial_window_size: 131072, max_frame_size: 16384 }
+2025-02-08T21:33:16.206962Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv SETTINGS frame=Settings { flags: (0x0), header_table_size: 65536, enable_push: 0, initial_window_size: 131072, max_frame_size: 16384 }
+2025-02-08T21:33:16.207148Z DEBUG server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Settings { flags: (0x1: ACK) }}: h2::codec::framed_write: send frame=Settings { flags: (0x1: ACK) }
+2025-02-08T21:33:16.207337Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Settings { flags: (0x1: ACK) }}: h2::frame::settings: encoding SETTINGS; len=0
+2025-02-08T21:33:16.210061Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Settings { flags: (0x1: ACK) }}: h2::codec::framed_write: encoded settings rem=9
+2025-02-08T21:33:16.210447Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready: h2::proto::settings: ACK sent; applying settings
+2025-02-08T21:33:16.210799Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:16.211110Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=13
+2025-02-08T21:33:16.211435Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: decoding frame from 13B
+2025-02-08T21:33:16.211702Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: frame.kind=WindowUpdate
+2025-02-08T21:33:16.211943Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=WindowUpdate { stream_id: StreamId(0), size_increment: 12517377 }
+2025-02-08T21:33:16.215872Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv WINDOW_UPDATE frame=WindowUpdate { stream_id: StreamId(0), size_increment: 12517377 }
+2025-02-08T21:33:16.216093Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=12517377; old=65535; new=12582912
+2025-02-08T21:33:16.216336Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:16.216518Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=346
+2025-02-08T21:33:16.216748Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}: h2::codec::framed_read: decoding frame from 346B
+2025-02-08T21:33:16.216976Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}: h2::codec::framed_read: frame.kind=Headers
+2025-02-08T21:33:16.217224Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}: h2::frame::headers: loading headers; flags=(0x25: END_HEADERS | END_STREAM | PRIORITY)
+2025-02-08T21:33:16.219842Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: decode
+2025-02-08T21:33:16.220048Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=332 kind=Indexed
+2025-02-08T21:33:16.220278Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=331 kind=LiteralWithoutIndexing
+2025-02-08T21:33:16.220536Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=328 kind=LiteralWithIndexing
+2025-02-08T21:33:16.220732Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=320 kind=Indexed
+2025-02-08T21:33:16.223922Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=319 kind=LiteralWithIndexing
+2025-02-08T21:33:16.224268Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=257 kind=LiteralWithIndexing
+2025-02-08T21:33:16.224674Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=165 kind=LiteralWithIndexing
+2025-02-08T21:33:16.224871Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=152 kind=LiteralWithIndexing
+2025-02-08T21:33:16.225087Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=132 kind=LiteralWithIndexing
+2025-02-08T21:33:16.228040Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=123 kind=LiteralWithIndexing
+2025-02-08T21:33:16.228340Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=101 kind=LiteralWithIndexing
+2025-02-08T21:33:16.228585Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=82 kind=LiteralWithIndexing
+2025-02-08T21:33:16.228864Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=63 kind=LiteralWithIndexing
+2025-02-08T21:33:16.229084Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=47 kind=LiteralWithIndexing
+2025-02-08T21:33:16.229292Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=32 kind=LiteralWithIndexing
+2025-02-08T21:33:16.232301Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=25 kind=LiteralWithIndexing
+2025-02-08T21:33:16.232606Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=346}:hpack::decode: h2::hpack::decoder: rem=11 kind=LiteralWithIndexing
+2025-02-08T21:33:16.232949Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Headers { stream_id: StreamId(3), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+2025-02-08T21:33:16.233176Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv HEADERS frame=Headers { stream_id: StreamId(3), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+2025-02-08T21:33:16.233374Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=65535; old=0; new=65535
+2025-02-08T21:33:16.233531Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=131072; old=0; new=131072
+2025-02-08T21:33:16.236836Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::streams: recv_headers; stream=StreamId(3); state=State { inner: Idle }
+2025-02-08T21:33:16.237108Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::recv: opening stream; init_window=65535
+2025-02-08T21:33:16.237414Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:33:16.237611Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store:  -> first entry
+2025-02-08T21:33:16.237825Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:33:16.238035Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:16.238221Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=13
+2025-02-08T21:33:16.238444Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: decoding frame from 13B
+2025-02-08T21:33:16.240690Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: frame.kind=WindowUpdate
+2025-02-08T21:33:16.240874Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=WindowUpdate { stream_id: StreamId(3), size_increment: 12451840 }
+2025-02-08T21:33:16.241018Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv WINDOW_UPDATE frame=WindowUpdate { stream_id: StreamId(3), size_increment: 12451840 }
+2025-02-08T21:33:16.241219Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(3) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}: h2::proto::streams::flow_control: inc_window; sz=12451840; old=131072; new=12582912
+2025-02-08T21:33:16.241428Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(3) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: requested=0 additional=0 buffered=0 window=12582912 conn=12582912
+2025-02-08T21:33:16.241599Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:16.246334Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=9
+2025-02-08T21:33:16.246568Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=9}: h2::codec::framed_read: decoding frame from 9B
+2025-02-08T21:33:16.246736Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=9}: h2::codec::framed_read: frame.kind=Settings
+2025-02-08T21:33:16.246898Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Settings { flags: (0x1: ACK) }
+2025-02-08T21:33:16.247040Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv SETTINGS frame=Settings { flags: (0x1: ACK) }
+2025-02-08T21:33:16.247216Z DEBUG server_handshake:Connection{peer=Server}:poll: h2::proto::settings: received settings ACK; applying Settings { flags: (0x0), max_concurrent_streams: 200, initial_window_size: 1048576, max_frame_size: 16384, max_header_list_size: 16384 }
+2025-02-08T21:33:16.247390Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::recv: update_initial_window_size; new=1048576; old=65535
+2025-02-08T21:33:16.250141Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::recv: incrementing all windows; inc=983041
+2025-02-08T21:33:16.250305Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=983041; old=65535; new=1048576
+2025-02-08T21:33:16.250509Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:16.250789Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=WindowUpdate { stream_id: StreamId(0), size_increment: 983041 }}: h2::codec::framed_write: send frame=WindowUpdate { stream_id: StreamId(0), size_increment: 983041 }
+2025-02-08T21:33:16.251070Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=WindowUpdate { stream_id: StreamId(0), size_increment: 983041 }}: h2::frame::window_update: encoding WINDOW_UPDATE; id=StreamId(0)
+2025-02-08T21:33:16.251275Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=WindowUpdate { stream_id: StreamId(0), size_increment: 983041 }}: h2::codec::framed_write: encoded window_update rem=22
+2025-02-08T21:33:16.251467Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=983041; old=65535; new=1048576
+2025-02-08T21:33:16.253747Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:33:16.253900Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:33:16.254080Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:33:16.254345Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:33:16.254481Z TRACE h2::proto::streams::streams: next_incoming; id=StreamId(3), state=State { inner: HalfClosedRemote(AwaitingHeaders) }
+2025-02-08T21:33:16.254588Z TRACE h2::server: received incoming
+2025-02-08T21:33:16.254775Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:33:16.254939Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:16.255098Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:33:16.257436Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:33:16.257676Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:33:16.258075Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(3), state: State { inner: HalfClosedRemote(AwaitingHeaders) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: false, send_flow: FlowControl { window_size: Window(12582912), available: Window(0) }, requested_send_capacity: 0, buffered_send_data: 0, send_task: None, pending_send: Deque { indices: None }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: false, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:33:16.258244Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:33:16.258417Z ERROR hydroxide::server: 404 - Not Found: GET https://localhost/
+2025-02-08T21:33:16.258638Z TRACE h2::proto::streams::send: send_headers; frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }; init_window=131072
+2025-02-08T21:33:16.258853Z TRACE Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(3)
+2025-02-08T21:33:16.259033Z TRACE Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:33:16.259191Z TRACE Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:33:16.260828Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: HalfClosedRemote(Streaming) }; is_closed=false; pending_send_empty=false; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:33:16.261066Z TRACE reserve_capacity{stream.id=StreamId(3) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: requested=1 additional=1 buffered=0 window=12582912 conn=12582912
+2025-02-08T21:33:16.261237Z TRACE reserve_capacity{stream.id=StreamId(3) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: assigning capacity=1
+2025-02-08T21:33:16.261388Z TRACE reserve_capacity{stream.id=StreamId(3) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::stream:   assigned capacity to stream; available=1; buffered=0; id=StreamId(3); max_buffer_size=409600 prev=0
+2025-02-08T21:33:16.261566Z TRACE reserve_capacity{stream.id=StreamId(3) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::stream:   notifying task
+2025-02-08T21:33:16.261708Z TRACE reserve_capacity{stream.id=StreamId(3) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: available=1 requested=1 buffered=0 has_unavailable=true
+2025-02-08T21:33:16.261864Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::prioritize: buffered=39
+2025-02-08T21:33:16.263723Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: requested=39 additional=38 buffered=39 window=12582912 conn=12582911
+2025-02-08T21:33:16.263932Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: assigning capacity=38
+2025-02-08T21:33:16.264111Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::stream:   assigned capacity to stream; available=39; buffered=39; id=StreamId(3); max_buffer_size=409600 prev=0
+2025-02-08T21:33:16.264243Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::prioritize: available=39 requested=39 buffered=39 has_unavailable=true
+2025-02-08T21:33:16.264375Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:33:16.264545Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(3)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:33:16.264724Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::state: send_close: HalfClosedRemote => Closed
+2025-02-08T21:33:16.264877Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::prioritize: available=39 buffered=39
+2025-02-08T21:33:16.267385Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(3)
+2025-02-08T21:33:16.267665Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:33:16.267978Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(3)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:33:16.268136Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:33:16.268502Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(3), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(39) }, requested_send_capacity: 39, buffered_send_data: 39, send_task: Some(Waker { data: 0x1adbabd6900, vtable: 0x7ff7e04a3c80 }), pending_send: Deque { indices: Some(Indices { head: 0, tail: 1 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:33:16.268656Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:33:16.271906Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(3), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 1, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(39) }, requested_send_capacity: 39, buffered_send_data: 39, send_task: Some(Waker { data: 0x1adbabd6900, vtable: 0x7ff7e04a3c80 }), pending_send: Deque { indices: Some(Indices { head: 0, tail: 1 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:33:16.272078Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:33:16.272351Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:33:16.272618Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:16.272870Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:33:16.273061Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:33:16.273353Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:33:16.273660Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }
+2025-02-08T21:33:16.273846Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:33:16.274027Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:33:16.274298Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:33:16.274710Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }
+2025-02-08T21:33:16.274897Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }}: h2::codec::framed_write: send frame=Headers { stream_id: StreamId(3), flags: (0x4: END_HEADERS) }
+2025-02-08T21:33:16.278643Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:33:16.278909Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:33:16.279112Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: data frame sz=39 eos=true window=39 available=39 requested=39 buffered=39
+2025-02-08T21:33:16.279279Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: sending data frame len=39
+2025-02-08T21:33:16.279469Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::flow_control: send_data; sz=39; window=12582912; available=39
+2025-02-08T21:33:16.282619Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::stream:   sent stream data; available=0; buffered=0; id=StreamId(3); max_buffer_size=409600 prev=0
+2025-02-08T21:33:16.282878Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}:updating connection flow: h2::proto::streams::flow_control: send_data; sz=39; window=12582912; available=12582912
+2025-02-08T21:33:16.283098Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) }
+2025-02-08T21:33:16.283416Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(3); state=State { inner: Closed(EndStream) }; is_closed=true; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:33:16.283709Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(3) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: dec_num_streams; stream=StreamId(3)
+2025-02-08T21:33:16.283969Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) }
+2025-02-08T21:33:16.286694Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) }}: h2::codec::framed_write: send frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) }
+2025-02-08T21:33:16.287069Z TRACE server_handshake:Connection{peer=Server}:poll:try_reclaim_frame: h2::proto::streams::prioritize: reclaimed frame=Data { stream_id: StreamId(3), flags: (0x1: END_STREAM) } sz=0
+2025-02-08T21:33:16.287329Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:33:16.287559Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:33:16.287869Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:33:22.122594Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:33:22.122848Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:22.123055Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=33
+2025-02-08T21:33:22.123277Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::codec::framed_read: decoding frame from 33B
+2025-02-08T21:33:22.123446Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::codec::framed_read: frame.kind=Headers
+2025-02-08T21:33:22.123615Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}: h2::frame::headers: loading headers; flags=(0x25: END_HEADERS | END_STREAM | PRIORITY)
+2025-02-08T21:33:22.123819Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: decode
+2025-02-08T21:33:22.123979Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=19 kind=Indexed
+2025-02-08T21:33:22.124140Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=18 kind=LiteralWithoutIndexing
+2025-02-08T21:33:22.124361Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=15 kind=Indexed
+2025-02-08T21:33:22.124531Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=14 kind=Indexed
+2025-02-08T21:33:22.126066Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=13 kind=Indexed
+2025-02-08T21:33:22.126291Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=12 kind=Indexed
+2025-02-08T21:33:22.126456Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=11 kind=Indexed
+2025-02-08T21:33:22.126631Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=10 kind=Indexed
+2025-02-08T21:33:22.126795Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=9 kind=Indexed
+2025-02-08T21:33:22.130116Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=8 kind=Indexed
+2025-02-08T21:33:22.130351Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=7 kind=Indexed
+2025-02-08T21:33:22.130771Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=6 kind=Indexed
+2025-02-08T21:33:22.131162Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=5 kind=Indexed
+2025-02-08T21:33:22.131592Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=4 kind=Indexed
+2025-02-08T21:33:22.131980Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=3 kind=Indexed
+2025-02-08T21:33:22.134016Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=2 kind=Indexed
+2025-02-08T21:33:22.134687Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=33}:hpack::decode: h2::hpack::decoder: rem=1 kind=Indexed
+2025-02-08T21:33:22.135000Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Headers { stream_id: StreamId(5), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+2025-02-08T21:33:22.135340Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv HEADERS frame=Headers { stream_id: StreamId(5), flags: (0x25: END_HEADERS | END_STREAM | PRIORITY), stream_dep: StreamDependency { dependency_id: StreamId(0), weight: 41, is_exclusive: false } }
+2025-02-08T21:33:22.135538Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=1048576; old=0; new=1048576
+2025-02-08T21:33:22.135737Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::flow_control: inc_window; sz=131072; old=0; new=131072
+2025-02-08T21:33:22.139141Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::streams: recv_headers; stream=StreamId(5); state=State { inner: Idle }
+2025-02-08T21:33:22.139318Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::recv: opening stream; init_window=1048576
+2025-02-08T21:33:22.139484Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:33:22.139661Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::store:  -> first entry
+2025-02-08T21:33:22.139822Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:33:22.140031Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:22.140217Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=13
+2025-02-08T21:33:22.140386Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: decoding frame from 13B
+2025-02-08T21:33:22.142264Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=13}: h2::codec::framed_read: frame.kind=WindowUpdate
+2025-02-08T21:33:22.142507Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=WindowUpdate { stream_id: StreamId(5), size_increment: 12451840 }
+2025-02-08T21:33:22.142696Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv WINDOW_UPDATE frame=WindowUpdate { stream_id: StreamId(5), size_increment: 12451840 }
+2025-02-08T21:33:22.142947Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(5) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}: h2::proto::streams::flow_control: inc_window; sz=12451840; old=131072; new=12582912
+2025-02-08T21:33:22.143335Z TRACE server_handshake:Connection{peer=Server}:poll:recv_stream_window_update{stream.id=StreamId(5) stream.state=State { inner: HalfClosedRemote(AwaitingHeaders) } inc=12451840 flow=FlowControl { window_size: Window(131072), available: Window(0) }}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: requested=0 additional=0 buffered=0 window=12582912 conn=12582873
+2025-02-08T21:33:22.143646Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:22.145996Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:33:22.146166Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:33:22.146318Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:33:22.146452Z TRACE h2::proto::streams::streams: next_incoming; id=StreamId(5), state=State { inner: HalfClosedRemote(AwaitingHeaders) }
+2025-02-08T21:33:22.146538Z TRACE h2::server: received incoming
+2025-02-08T21:33:22.146703Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:33:22.146883Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:22.147048Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:33:22.147178Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:33:22.149454Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:33:22.149737Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(5), state: State { inner: HalfClosedRemote(AwaitingHeaders) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: false, send_flow: FlowControl { window_size: Window(12582912), available: Window(0) }, requested_send_capacity: 0, buffered_send_data: 0, send_task: None, pending_send: Deque { indices: None }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: false, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:33:22.149910Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: HalfClosedRemote(AwaitingHeaders) }; is_closed=false; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:33:22.150051Z ERROR hydroxide::server: 404 - Not Found: GET https://localhost/
+2025-02-08T21:33:22.150285Z TRACE h2::proto::streams::send: send_headers; frame=Headers { stream_id: StreamId(5), flags: (0x4: END_HEADERS) }; init_window=131072
+2025-02-08T21:33:22.150544Z TRACE Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(5)
+2025-02-08T21:33:22.151046Z TRACE Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:33:22.151280Z TRACE Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:33:22.151465Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: HalfClosedRemote(Streaming) }; is_closed=false; pending_send_empty=false; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:33:22.155795Z TRACE reserve_capacity{stream.id=StreamId(5) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: requested=1 additional=1 buffered=0 window=12582912 conn=12582873
+2025-02-08T21:33:22.156013Z TRACE reserve_capacity{stream.id=StreamId(5) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: assigning capacity=1
+2025-02-08T21:33:22.156488Z TRACE reserve_capacity{stream.id=StreamId(5) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::stream:   assigned capacity to stream; available=1; buffered=0; id=StreamId(5); max_buffer_size=409600 prev=0
+2025-02-08T21:33:22.156724Z TRACE reserve_capacity{stream.id=StreamId(5) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::stream:   notifying task
+2025-02-08T21:33:22.156886Z TRACE reserve_capacity{stream.id=StreamId(5) requested=1 effective=1 curr=0}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: available=1 requested=1 buffered=0 has_unavailable=true
+2025-02-08T21:33:22.157072Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::prioritize: buffered=39
+2025-02-08T21:33:22.157277Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: requested=39 additional=38 buffered=39 window=12582912 conn=12582872
+2025-02-08T21:33:22.158130Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: assigning capacity=38
+2025-02-08T21:33:22.158354Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::stream:   assigned capacity to stream; available=39; buffered=39; id=StreamId(5); max_buffer_size=409600 prev=0
+2025-02-08T21:33:22.158566Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::prioritize: available=39 requested=39 buffered=39 has_unavailable=true
+2025-02-08T21:33:22.158776Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:33:22.158978Z TRACE send_data{sz=39 requested=1}:try_assign_capacity{stream.id=StreamId(5)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:33:22.159186Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::state: send_close: HalfClosedRemote => Closed
+2025-02-08T21:33:22.159425Z TRACE send_data{sz=39 requested=1}: h2::proto::streams::prioritize: available=39 buffered=39
+2025-02-08T21:33:22.159558Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::prioritize: schedule_send stream.id=StreamId(5)
+2025-02-08T21:33:22.159671Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:33:22.161849Z TRACE send_data{sz=39 requested=1}:Prioritize::queue_frame{stream.id=StreamId(5)}: h2::proto::streams::store:  -> already queued
+2025-02-08T21:33:22.162017Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:33:22.162202Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(5), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 2, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(39) }, requested_send_capacity: 39, buffered_send_data: 39, send_task: Some(Waker { data: 0x1adbabd6900, vtable: 0x7ff7e04a3c80 }), pending_send: Deque { indices: Some(Indices { head: 1, tail: 0 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:33:22.162317Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:33:22.162454Z TRACE h2::proto::streams::streams: drop_stream_ref; stream=Stream { id: StreamId(5), state: State { inner: Closed(EndStream) }, is_counted: true, ref_count: 1, next_pending_send: None, is_pending_send: true, send_flow: FlowControl { window_size: Window(12582912), available: Window(39) }, requested_send_capacity: 39, buffered_send_data: 39, send_task: Some(Waker { data: 0x1adbabd6900, vtable: 0x7ff7e04a3c80 }), pending_send: Deque { indices: Some(Indices { head: 1, tail: 0 }) }, next_pending_send_capacity: None, is_pending_send_capacity: false, send_capacity_inc: true, next_open: None, is_pending_open: false, is_pending_push: false, next_pending_accept: None, is_pending_accept: false, recv_flow: FlowControl { window_size: Window(1048576), available: Window(1048576) }, in_flight_recv_data: 0, next_window_update: None, is_pending_window_update: false, reset_at: None, next_reset_expire: None, pending_recv: Deque { indices: None }, is_recv: false, recv_task: None, push_task: None, pending_push_promises: Queue { indices: None, _p: PhantomData<h2::proto::streams::stream::NextAccept> }, content_length: Omitted }
+2025-02-08T21:33:22.165123Z TRACE h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:33:22.165392Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:33:22.165667Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:33:22.165873Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:33:22.166026Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:33:22.166253Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:33:22.166422Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Headers { stream_id: StreamId(5), flags: (0x4: END_HEADERS) }
+2025-02-08T21:33:22.166644Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store: Queue::push_back
+2025-02-08T21:33:22.166974Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::store:  -> first entry
+2025-02-08T21:33:22.167142Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: Closed(EndStream) }; is_closed=false; pending_send_empty=false; buffered_send_data=39; num_recv=1; num_send=0
+2025-02-08T21:33:22.167338Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Headers { stream_id: StreamId(5), flags: (0x4: END_HEADERS) }
+2025-02-08T21:33:22.167576Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Headers { stream_id: StreamId(5), flags: (0x4: END_HEADERS) }}: h2::codec::framed_write: send frame=Headers { stream_id: StreamId(5), flags: (0x4: END_HEADERS) }
+2025-02-08T21:33:22.167810Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:33:22.170427Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: is_pending_reset=false
+2025-02-08T21:33:22.170653Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: data frame sz=39 eos=true window=39 available=39 requested=39 buffered=39
+2025-02-08T21:33:22.170829Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: sending data frame len=39
+2025-02-08T21:33:22.171014Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::flow_control: send_data; sz=39; window=12582912; available=39
+2025-02-08T21:33:22.171199Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}:updating stream flow: h2::proto::streams::stream:   sent stream data; available=0; buffered=0; id=StreamId(5); max_buffer_size=409600 prev=0
+2025-02-08T21:33:22.173802Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}:updating connection flow: h2::proto::streams::flow_control: send_data; sz=39; window=12582873; available=12582873
+2025-02-08T21:33:22.174010Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::prioritize: pop_frame; frame=Data { stream_id: StreamId(5), flags: (0x1: END_STREAM) }
+2025-02-08T21:33:22.174232Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: transition_after; stream=StreamId(5); state=State { inner: Closed(EndStream) }; is_closed=true; pending_send_empty=true; buffered_send_data=0; num_recv=1; num_send=0
+2025-02-08T21:33:22.174452Z TRACE server_handshake:Connection{peer=Server}:poll:pop_frame:popped{stream.id=StreamId(5) stream.state=State { inner: Closed(EndStream) }}: h2::proto::streams::counts: dec_num_streams; stream=StreamId(5)
+2025-02-08T21:33:22.174671Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: writing frame=Data { stream_id: StreamId(5), flags: (0x1: END_STREAM) }
+2025-02-08T21:33:22.177398Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedWrite::buffer{frame=Data { stream_id: StreamId(5), flags: (0x1: END_STREAM) }}: h2::codec::framed_write: send frame=Data { stream_id: StreamId(5), flags: (0x1: END_STREAM) }
+2025-02-08T21:33:22.177618Z TRACE server_handshake:Connection{peer=Server}:poll:try_reclaim_frame: h2::proto::streams::prioritize: reclaimed frame=Data { stream_id: StreamId(5), flags: (0x1: END_STREAM) } sz=0
+2025-02-08T21:33:22.177771Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:33:22.177956Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:33:22.178224Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:34:20.458993Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:34:20.459337Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:34:20.459897Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=17
+2025-02-08T21:34:20.460477Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: decoding frame from 17B
+2025-02-08T21:34:20.460696Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: frame.kind=Ping
+2025-02-08T21:34:20.461154Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:34:20.461408Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv PING frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:34:20.461660Z DEBUG server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: send frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:34:20.461862Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::frame::ping: encoding PING; ack=true len=8
+2025-02-08T21:34:20.462042Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: encoded ping rem=17
+2025-02-08T21:34:20.462246Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:34:20.462497Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:34:20.462756Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:34:20.464052Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:34:20.464310Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:35:20.389189Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:35:20.389965Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:35:20.390247Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=17
+2025-02-08T21:35:20.390731Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: decoding frame from 17B
+2025-02-08T21:35:20.390944Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: frame.kind=Ping
+2025-02-08T21:35:20.391212Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:35:20.391418Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv PING frame=Ping { ack: false, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:35:20.391699Z DEBUG server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: send frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }
+2025-02-08T21:35:20.391876Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::frame::ping: encoding PING; ack=true len=8
+2025-02-08T21:35:20.392054Z TRACE server_handshake:Connection{peer=Server}:poll:poll_ready:FramedWrite::buffer{frame=Ping { ack: true, payload: [0, 0, 0, 0, 0, 0, 0, 0] }}: h2::codec::framed_write: encoded ping rem=17
+2025-02-08T21:35:20.392237Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:35:20.392409Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: poll_complete
+2025-02-08T21:35:20.392533Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::prioritize: schedule_pending_open
+2025-02-08T21:35:20.392683Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: queued_data_frame=false
+2025-02-08T21:35:20.392886Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:36:13.125501Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Open
+2025-02-08T21:36:13.126246Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:36:13.126932Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: read.bytes=17
+2025-02-08T21:36:13.127394Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: decoding frame from 17B
+2025-02-08T21:36:13.127746Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next:FramedRead::decode_frame{offset=17}: h2::codec::framed_read: frame.kind=GoAway
+2025-02-08T21:36:13.128094Z DEBUG server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: received frame=GoAway { error_code: NO_ERROR, last_stream_id: StreamId(0) }
+2025-02-08T21:36:13.128458Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: recv GOAWAY frame=GoAway { error_code: NO_ERROR, last_stream_id: StreamId(0) }
+2025-02-08T21:36:13.128863Z TRACE server_handshake:Connection{peer=Server}:poll:FramedRead::poll_next: h2::codec::framed_read: poll
+2025-02-08T21:36:13.129051Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: codec closed
+2025-02-08T21:36:13.129283Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::streams::streams: Streams::recv_eof
+2025-02-08T21:36:13.129539Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Closing(NO_ERROR, Library)
+2025-02-08T21:36:13.129720Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection closing after flush
+2025-02-08T21:36:13.129886Z TRACE server_handshake:Connection{peer=Server}:poll:FramedWrite::flush: h2::codec::framed_write: flushing buffer
+2025-02-08T21:36:13.130127Z TRACE server_handshake:Connection{peer=Server}:poll: h2::proto::connection: connection.state=Closed(NO_ERROR, Library)
+2025-02-08T21:36:13.130272Z TRACE h2::proto::streams::streams: Streams::recv_eof
+2025-02-08T21:36:55.551933Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T21:36:55.552049Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T21:36:55.552250Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T21:36:55.552461Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T21:38:36.850356Z TRACE hydroxide::config: Setting port: 443
+2025-02-08T21:38:36.850696Z TRACE hydroxide::config: Built Config: 
+Url = localhost:443,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:38:36.853249Z  INFO hydroxide::server: Starting HTTP redirect server on 0.0.0.0:80
+2025-02-08T21:38:36.853460Z  INFO hydroxide::server: Starting HTTPS server on 0.0.0.0:443
+2025-02-08T21:38:41.860108Z  INFO hydroxide::server: Shutting down server...
+2025-02-08T21:38:41.860546Z TRACE axum::serve: received graceful shutdown signal. Telling tasks to shutdown
+2025-02-08T21:38:41.860836Z TRACE axum::serve: signal received, not accepting new connections
+2025-02-08T21:38:41.861135Z TRACE axum::serve: waiting for 0 task(s) to finish
+2025-02-08T21:54:25.980548Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T21:54:25.981074Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:54:36.273417Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T21:54:36.273592Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:55:24.127709Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T21:55:24.128050Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:55:27.417481Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T21:55:27.417679Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T21:56:21.587764Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T21:56:21.587999Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:06:00.738825Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:06:00.739025Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:06:15.040789Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:06:15.041027Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:08:56.069507Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:08:56.069719Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:10:23.944973Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:10:23.945209Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:13:14.057211Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:13:14.057400Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:15:45.211888Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:15:45.212125Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:16:26.174270Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:16:26.174520Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:22:16.145916Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:22:16.146370Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:22:16.148963Z  INFO hydroxide::server: Starting HTTP redirect server on 0.0.0.0:80
+2025-02-08T22:22:16.149498Z  INFO hydroxide::server: Starting HTTPS server on 0.0.0.0:80
+2025-02-08T22:22:20.985820Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:22:20.986079Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:22:20.987991Z  INFO hydroxide::server: Starting HTTP redirect server on 0.0.0.0:80
+2025-02-08T22:22:20.988228Z  INFO hydroxide::server: Starting HTTPS server on 0.0.0.0:80
+2025-02-08T22:22:40.799783Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:22:40.800172Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:22:45.556271Z TRACE hydroxide::cli: No custom port was specified, defaulting to 80
+2025-02-08T22:22:45.556576Z TRACE hydroxide::config: Built Config: 
+Url = localhost:80,
+https = false,
+self signed = false,
+loglevel = Info
+2025-02-08T22:22:45.558828Z  INFO hydroxide::server: Starting HTTP redirect server on 0.0.0.0:80
+2025-02-08T22:22:45.559099Z  INFO hydroxide::server: Starting HTTPS server on 0.0.0.0:80
