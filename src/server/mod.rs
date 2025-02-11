@@ -17,11 +17,10 @@ use std::future::IntoFuture;
 use std::net::SocketAddr;
 use tokio::net::TcpListener;
 use tokio::signal;
-use tracing::{error, info};
+use tracing::{error, info, trace};
 #[derive(Clone)]
 struct GitServer {
     instance_url: String,
-    #[allow(dead_code)]
     addr: SocketAddr,
 }
 
@@ -30,25 +29,20 @@ pub async fn launch(mut config: crate::config::Config) {
     // For TLS mode, config.port is the HTTPS port (e.g. 443)
     let https_addr = SocketAddr::from(([0, 0, 0, 0], 443));
     // Use port 80 for HTTP redirection.
-    #[allow(unused_variables)]
     let http_addr = SocketAddr::from(([0, 0, 0, 0], 80));
 
     // Build the main application router.
     let main_router = build_main_router();
 
-    let state = GitServer {
-        instance_url: if config.use_https {
-            format!("https://{}", https_addr)
-        } else {
-            format!("http://{}", https_addr)
-        },
-        addr: https_addr,
-    };
-    config.use_https = true;
-    if config.use_https {
+    if cfg!(feature = "https") {
         // When TLS is enabled, run both the HTTPS server and an HTTP server that redirects to HTTPS.
         #[cfg(feature = "https")]
         {
+            let state = GitServer {
+                instance_url: format!("https://{}", https_addr),
+                addr: https_addr,
+            };
+
             let https_router = main_router.clone().with_state(state.clone());
             let redirect_state = state.clone();
             let redirect_router = Router::new().fallback(move |req: Request<Body>| {
@@ -63,8 +57,13 @@ pub async fn launch(mut config: crate::config::Config) {
         }
     } else {
         // Run only a plain HTTP server.
+        let state = GitServer {
+            instance_url: format!("http://{}", http_addr),
+            addr: http_addr,
+        };
+
         let router = main_router.with_state(state).into_make_service();
-        run_http(https_addr, router).await;
+        run_http(http_addr, router).await;
     }
 }
 
@@ -84,9 +83,6 @@ async fn run_https(addr: SocketAddr, router: IntoMakeService<Router>) {
     let tls_config = make_tls_config().await;
     info!("Starting HTTPS server on {}", addr);
     let mut new_addr = addr;
-    if addr.port() == 80 {
-        new_addr = SocketAddr::from(([0, 0, 0, 0], 443));
-    }
     axum_server::bind_rustls(addr, tls_config)
         .serve(router)
         .await
@@ -142,7 +138,8 @@ async fn shutdown_signal() {
     info!("Shutting down server...");
 }
 
-/// A minimal WebDAV response for PROPFIND requests.
+// REMOVE THIS PLEASE
+// A minimal WebDAV response for PROPFIND requests.
 async fn handle_propfind() -> impl IntoResponse {
     info!("PROPFIND request");
     let body = r#"<?xml version="1.0" encoding="utf-8"?>
