@@ -43,8 +43,10 @@ pub async fn launch(config: crate::config::Config) {
         {
             let state = GitServer {
                 instance_url: format!("https://{}", https_addr),
-                addr: https_addr,
+                addr: SocketAddr::from(([0, 0, 0, 0], 443)),
             };
+
+            let addr = state.addr.clone();
 
             let https_router = main_router.clone().with_state(state.clone());
             let redirect_state = state.clone();
@@ -54,7 +56,7 @@ pub async fn launch(config: crate::config::Config) {
             });
             let redirect_router = redirect_router.into_make_service();
 
-            let https_server = run_https(https_addr, https_router.into_make_service());
+            let https_server = run_https(addr, https_router.into_make_service());
             match config.http_redirect {
                 true => {
                     let http_redirect_server = run_http_redirect(http_addr, redirect_router);
@@ -67,11 +69,13 @@ pub async fn launch(config: crate::config::Config) {
         // Run only a plain HTTP server.
         let state = GitServer {
             instance_url: format!("http://{}", http_addr),
-            addr: http_addr,
+            addr: SocketAddr::from(([0, 0, 0, 0], 80)),
         };
 
+        let addr = state.addr.clone();
+
         let router = main_router.with_state(state).into_make_service();
-        run_http(http_addr, router).await;
+        run_http(addr, router).await;
     }
 }
 
@@ -90,7 +94,6 @@ fn build_main_router() -> Router<GitServer> {
 async fn run_https(addr: SocketAddr, router: IntoMakeService<Router>) {
     let tls_config = make_tls_config().await;
     info!("Starting HTTPS server on {}", addr);
-    let mut new_addr = addr;
     axum_server::bind_rustls(addr, tls_config)
         .serve(router)
         .await
