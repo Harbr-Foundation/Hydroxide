@@ -26,7 +26,10 @@ struct GitServer {
 }
 
 /// Main entry point: chooses between TLS mode and plain HTTP.
-pub async fn launch(mut config: crate::config::Config) {
+#[allow(unused_variables)]
+// allow unused variables because we currently only need the config if the https feature
+// is enabled
+pub async fn launch(config: crate::config::Config) {
     // For TLS mode, config.port is the HTTPS port (e.g. 443)
     let https_addr = SocketAddr::from(([0, 0, 0, 0], 443));
     // Use port 80 for HTTP redirection.
@@ -37,15 +40,15 @@ pub async fn launch(mut config: crate::config::Config) {
     let main_router = build_main_router();
 
     let state = GitServer {
-        instance_url: if config.use_https {
+        instance_url: if cfg!(feature = "https") {
             format!("https://{}", https_addr)
         } else {
             format!("http://{}", https_addr)
         },
         addr: https_addr,
     };
-    config.use_https = true;
-    if config.use_https {
+    if cfg!(feature = "https") {
+        println!("Using https backend");
         // When TLS is enabled, run both the HTTPS server and an HTTP server that redirects to HTTPS.
         #[cfg(feature = "https")]
         {
@@ -58,8 +61,13 @@ pub async fn launch(mut config: crate::config::Config) {
             let redirect_router = redirect_router.into_make_service();
 
             let https_server = run_https(https_addr, https_router.into_make_service());
-            let http_redirect_server = run_http_redirect(http_addr, redirect_router);
-            tokio::join!(https_server, http_redirect_server);
+            match config.http_redirect {
+                true => {
+                    let http_redirect_server = run_http_redirect(http_addr, redirect_router);
+                    tokio::join!(https_server, http_redirect_server);
+                }
+                false => tokio::task::block_in_place(move || https_server).await,
+            }
         }
     } else {
         // Run only a plain HTTP server.
