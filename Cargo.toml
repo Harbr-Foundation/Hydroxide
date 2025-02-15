@@ -22,7 +22,6 @@ dav-server = { git = "https://github.com/messense/dav-server-rs.git" }
 [dev-dependencies]
 rusty-hook = "^0.11.2"
 
-
 [lints.rust]
 unsafe_code = "warn"
 unused_results = "warn"

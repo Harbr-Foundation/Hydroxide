@@ -15,9 +15,13 @@ use axum_server::tls_rustls::RustlsConfig;
 use rcgen::generate_simple_self_signed;
 use std::future::IntoFuture;
 use std::net::SocketAddr;
+use dav_server::DavHandler;
+use dav_server::fakels::FakeLs;
+use dav_server::localfs::LocalFs;
+use dav_server::memls::MemLs;
 use tokio::net::TcpListener;
 use tokio::signal;
-use tracing::{error, info, trace};
+use tracing::{debug, error, info, trace};
 #[derive(Clone)]
 struct GitServer {
     instance_url: String,
@@ -195,36 +199,34 @@ async fn init(Path((user, repo_name)): Path<(String, String)>) -> impl IntoRespo
     }
 }
 
-/// Handle file or directory requests for a repository.
 async fn handle_repo(
     Path((user, repo_name, path)): Path<(String, String, String)>,
+    uri: Uri,
 ) -> impl IntoResponse {
-    let repo_path = format!("repos/{}/{}", user, repo_name);
-    let file_path = format!("{}/{}", repo_path, path);
+    let repo_path = format!("/repos/{}/{}", user, repo_name);
 
-    match tokio::fs::metadata(&file_path).await {
-        Ok(metadata) => {
-            if metadata.is_dir() {
-                info!("Directory: {}", file_path);
-                (StatusCode::OK, format!("Directory: {}", file_path)).into_response()
-            } else {
-                match tokio::fs::read(&file_path).await {
-                    Ok(contents) => (StatusCode::OK, contents).into_response(),
-                    Err(_) => (
-                        StatusCode::NOT_FOUND,
-                        format!("File not found: {}", file_path),
-                    )
-                        .into_response(),
-                }
-            }
+    let relative_uri = {
+        if let Some(query) = uri.query() {
+            format!("/{}?{}", path, query)
+        } else {
+            format!("/{}", path)
         }
-        Err(_) => (
-            StatusCode::NOT_FOUND,
-            format!("Path not found: {}", file_path),
-        )
-            .into_response(),
-    }
+    };
+    debug!("Repository path: {}, relative URI: {}", repo_path.escape_debug(), relative_uri.escape_debug());
+
+    let dav_server = DavHandler::builder()
+        .filesystem(LocalFs::new(repo_path.clone(), true, false, false))
+        .locksystem(MemLs::new())
+        .build_handler();
+
+    let req = Request::builder()
+        .uri(relative_uri)
+        .body(Body::empty())
+        .unwrap();
+    debug!("DAV Request: {:?}", req);
+    dav_server.handle(req).await
 }
+
 
 /// Fallback handler for unmatched routes on the main router.
 async fn fallback(uri: Uri, State(_state): State<GitServer>, method: Method) -> impl IntoResponse {

@@ -10,7 +10,6 @@
     <list default="true" id="0e57eedc-e1aa-449b-8f6c-b1d02869480e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/app.log.2025-02-11" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.log.2025-02-11" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/server/mod.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/mod.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +117,8 @@
       <workItem from="1739039255737" duration="12588000" />
       <workItem from="1739083069866" duration="2314000" />
       <workItem from="1739247190428" duration="4237000" />
+      <workItem from="1739647147599" duration="3040000" />
+      <workItem from="1739658800848" duration="1306000" />
     </task>
     <servers />
   </component>
